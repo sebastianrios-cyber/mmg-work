@@ -1,134 +1,828 @@
 [
-  {
-    "id": "01", "slug": "hora-de-salida", "accent": "#ff3d9a", "accent2": "#ffb347",
-    "title": "¿A qué hora sale GTA 6?",
-    "segs": [
-      {"say": "¿A qué hora sale GTA 6? Te lo digo en treinta segundos.", "k": "GTA 6", "big": "¿A QUÉ HORA SALE?", "sub": "", "fx": "hook"},
-      {"say": "Sale este jueves 19 de noviembre, a la medianoche, hora local de tu país.", "k": "JUEVES 19 NOV", "big": "00:00", "sub": "hora local de tu país", "fx": "clock"},
-      {"say": "O sea: cuando tu reloj marque las doce de la noche del miércoles, el juego se desbloquea en PlayStation 5 y Xbox Series.", "k": "SE DESBLOQUEA EN", "big": "PS5 · XBOX SERIES", "sub": "miércoles a las 12 de la noche", "fx": "card"},
-      {"say": "No hay acceso anticipado: Rockstar confirmó que todos entran a la misma hora local.", "k": "ACCESO ANTICIPADO", "big": "NO HAY", "sub": "confirmado por Rockstar", "fx": "stamp"},
-      {"say": "¿El truco de cambiar la región a Nueva Zelanda? Nadie lo ha confirmado, y en Xbox puede romper las normas de tu cuenta.", "k": "TRUCO NUEVA ZELANDA", "big": "SIN CONFIRMAR", "sub": "y puede romper las normas de Xbox", "fx": "warn"},
-      {"say": "Mi consejo: deja la precarga lista hoy, porque pesa 212 gigas.", "k": "PRECARGA", "big": "212 GB", "sub": "déjala lista hoy", "fx": "count"},
-      {"say": "Y ahora sí, ya sabes a qué hora sale GTA 6.", "k": "SÍGUEME", "big": "GTA 6 DÍA A DÍA", "sub": "guías desde el primer minuto", "fx": "cta"}
-    ]
-  },
-  {
-    "id": "02", "slug": "peso-y-precarga", "accent": "#21e6c1", "accent2": "#ff3d9a",
-    "title": "GTA 6 pesa 212 GB",
-    "segs": [
-      {"say": "GTA 6 pesa 212 gigas. Sí, escuchaste bien.", "k": "GTA 6 PESA", "big": "212 GB", "sub": "", "fx": "count"},
-      {"say": "Es más del doble de lo que ocupa GTA 5 en PlayStation 5.", "k": "COMPARADO CON GTA 5", "big": "MÁS DEL DOBLE", "sub": "GTA 5 en PS5: unos 87 GB", "fx": "bars"},
-      {"say": "La precarga ya está abierta en PlayStation 5 y en Xbox Series, pero solo si reservaste el juego.", "k": "PRECARGA", "big": "YA ABIERTA", "sub": "solo si lo reservaste", "fx": "card"},
-      {"say": "En una Xbox Series S de 512 gigas, se come más de la mitad del espacio disponible.", "k": "XBOX SERIES S 512 GB", "big": "+50%", "sub": "del espacio disponible", "fx": "fill"},
-      {"say": "Así que borra lo que no juegas y activa la descarga automática esta misma noche.", "k": "HAZLO HOY", "big": "LIBERA ESPACIO", "sub": "y activa la descarga automática", "fx": "card"},
-      {"say": "Con una conexión normal puede tardar horas.", "k": "DESCARGA", "big": "HORAS", "sub": "según tu conexión", "fx": "stamp"},
-      {"say": "Porque el jueves nadie quiere quedarse mirando una barra de descarga.", "k": "SÍGUEME", "big": "GTA 6 DÍA A DÍA", "sub": "guías desde el primer minuto", "fx": "cta"}
-    ]
-  },
-  {
-    "id": "03", "slug": "precio-y-ediciones", "accent": "#ffd23f", "accent2": "#ff3d9a",
-    "title": "GTA 6: precio y qué edición comprar",
-    "segs": [
-      {"say": "¿Cuánto cuesta GTA 6 y qué edición te conviene?", "k": "GTA 6", "big": "¿CUÁNTO CUESTA?", "sub": "", "fx": "hook"},
-      {"say": "La edición estándar cuesta 80 dólares, o 80 euros en España.", "k": "EDICIÓN ESTÁNDAR", "big": "$79.99", "sub": "79,99 € en España", "fx": "card"},
-      {"say": "La Ultimate sube a 100, e incluye vehículos exclusivos, talleres de personalización y variantes de armas.", "k": "EDICIÓN ULTIMATE", "big": "$99.99", "sub": "vehículos · talleres · armas", "fx": "card"},
-      {"say": "Ojo: esas recompensas se desbloquean a medida que avanzas en la historia.", "k": "OJO", "big": "SE DESBLOQUEAN", "sub": "al avanzar en la historia", "fx": "warn"},
-      {"say": "Si reservas cualquiera de las dos antes de que termine el 19 de noviembre, te llevas el pack Vintage Vice City y un mes de GTA Plus.", "k": "BONUS DE RESERVA", "big": "VINTAGE VICE CITY", "sub": "+ 1 mes de GTA+ · hasta el 19 nov", "fx": "stamp"},
-      {"say": "¿Solo quieres la historia? Con la estándar tienes el juego completo.", "k": "¿SOLO LA HISTORIA?", "big": "ESTÁNDAR", "sub": "es el juego completo", "fx": "card"},
-      {"say": "Ahora ya sabes cuánto cuesta GTA 6.", "k": "SÍGUEME", "big": "GTA 6 DÍA A DÍA", "sub": "guías desde el primer minuto", "fx": "cta"}
-    ]
-  },
-  {
-    "id": "04", "slug": "sale-en-pc", "accent": "#7c5cff", "accent2": "#21e6c1",
-    "title": "¿GTA 6 sale en PC?",
-    "segs": [
-      {"say": "¿GTA 6 sale en PC? La respuesta corta: el jueves, no.", "k": "¿GTA 6 EN PC?", "big": "EL JUEVES, NO", "sub": "", "fx": "hook"},
-      {"say": "El juego llega solo a PlayStation 5 y Xbox Series.", "k": "LANZAMIENTO", "big": "PS5 · XBOX SERIES", "sub": "solo consolas", "fx": "card"},
-      {"say": "Rockstar no ha anunciado versión de PC, ni fecha, ni requisitos.", "k": "VERSIÓN DE PC", "big": "SIN ANUNCIAR", "sub": "ni fecha ni requisitos", "fx": "stamp"},
-      {"say": "Así que cualquier lista de requisitos que veas hoy, no es oficial.", "k": "REQUISITOS DE PC", "big": "NO SON OFICIALES", "sub": "desconfía de las listas", "fx": "warn"},
-      {"say": "¿Hay esperanza? GTA 5 tardó cerca de año y medio en llegar a PC después de consolas.", "k": "GTA 5 EN PC", "big": "~18 MESES", "sub": "después de consolas", "fx": "count"},
-      {"say": "Y el jefe de Take-Two ha dicho que el PC es cada vez más importante para ellos.", "k": "TAKE-TWO", "big": "\"CADA VEZ MÁS IMPORTANTE\"", "sub": "sobre el PC", "fx": "card"},
-      {"say": "Pero por ahora, fecha oficial: ninguna. Por eso, si me preguntas...", "k": "SÍGUEME", "big": "GTA 6 DÍA A DÍA", "sub": "te aviso cuando haya fecha", "fx": "cta"}
-    ]
-  },
-  {
-    "id": "05", "slug": "ps4-y-xbox-one", "accent": "#21e6c1", "accent2": "#ffd23f",
-    "title": "¿GTA 6 en PS4 o Xbox One?",
-    "segs": [
-      {"say": "¿Se puede jugar GTA 6 en PS4 o en Xbox One?", "k": "GTA 6", "big": "¿EN PS4 O XBOX ONE?", "sub": "", "fx": "hook"},
-      {"say": "En PS4, no. No existe versión para esa consola.", "k": "PS4", "big": "NO", "sub": "no existe versión", "fx": "stamp"},
-      {"say": "En Xbox One, sorpresa: sí, pero por streaming.", "k": "XBOX ONE", "big": "SÍ*", "sub": "*por streaming", "fx": "stamp"},
-      {"say": "Xbox confirmó que funcionará con Xbox Cloud Gaming desde el día de lanzamiento.", "k": "CONFIRMADO POR XBOX", "big": "CLOUD GAMING", "sub": "desde el día de lanzamiento", "fx": "card"},
-      {"say": "Necesitas comprar el juego, una buena conexión, y que el servicio esté disponible en tu país.", "k": "NECESITAS", "big": "JUEGO + INTERNET", "sub": "y que esté disponible en tu país", "fx": "card"},
-      {"say": "Se verá con la calidad gráfica de una Series S.", "k": "GRÁFICOS", "big": "NIVEL SERIES S", "sub": "en la nube", "fx": "card"},
-      {"say": "No es lo ideal, pero es la única forma anunciada de jugarlo en la generación pasada.", "k": "SÍGUEME", "big": "GTA 6 DÍA A DÍA", "sub": "guías desde el primer minuto", "fx": "cta"}
-    ]
-  },
-  {
-    "id": "06", "slug": "30-fps-y-ps5-pro", "accent": "#ff5e3a", "accent2": "#7c5cff",
-    "title": "GTA 6 va a 30 FPS",
-    "segs": [
-      {"say": "GTA 6 va a 30 cuadros por segundo. En todas las consolas.", "k": "GTA 6 VA A", "big": "30 FPS", "sub": "en todas las consolas", "fx": "count"},
-      {"say": "Rockstar lo confirmó: PlayStation 5, Xbox Series X, Series S, y también PlayStation 5 Pro.", "k": "CONFIRMADO POR ROCKSTAR", "big": "PS5 · PRO · SERIES X|S", "sub": "objetivo: 30 FPS", "fx": "card"},
-      {"say": "No hay ningún modo rendimiento a 60 anunciado.", "k": "MODO 60 FPS", "big": "NO ANUNCIADO", "sub": "", "fx": "stamp"},
-      {"say": "¿Entonces qué gana la Pro? Imagen más nítida y sombras con trazado de rayos, exclusivas de esa consola.", "k": "PS5 PRO", "big": "MÁS NITIDEZ", "sub": "PSSR + sombras con trazado de rayos", "fx": "card"},
-      {"say": "Rockstar tampoco ha detallado la resolución exacta de cada consola.", "k": "RESOLUCIÓN", "big": "SIN DETALLAR", "sub": "por ahora", "fx": "warn"},
-      {"say": "¿Es mala noticia? Red Dead Redemption 2 también salió a 30, y se veía increíble.", "k": "RED DEAD REDEMPTION 2", "big": "TAMBIÉN 30", "sub": "en su lanzamiento", "fx": "card"},
-      {"say": "Así que no: comprar una Pro no te da 60.", "k": "SÍGUEME", "big": "GTA 6 DÍA A DÍA", "sub": "guías desde el primer minuto", "fx": "cta"}
-    ]
-  },
-  {
-    "id": "07", "slug": "tiene-online", "accent": "#ff3d9a", "accent2": "#21e6c1",
-    "title": "¿GTA 6 tiene online?",
-    "segs": [
-      {"say": "¿GTA 6 tiene online? El día de lanzamiento, no.", "k": "¿GTA 6 ONLINE?", "big": "EL DÍA 1, NO", "sub": "", "fx": "hook"},
-      {"say": "Rockstar lo describe como una experiencia para un jugador.", "k": "ROCKSTAR", "big": "UN JUGADOR", "sub": "así lo describe", "fx": "card"},
-      {"say": "No hay modo multijugador el jueves, y tampoco hay fecha anunciada para el nuevo online.", "k": "NUEVO ONLINE", "big": "SIN FECHA", "sub": "nada anunciado", "fx": "stamp"},
-      {"say": "Se habla de 2027, pero eso viene de reportes, no de Rockstar.", "k": "¿2027?", "big": "NO ES OFICIAL", "sub": "viene de reportes", "fx": "warn"},
-      {"say": "¿Y el GTA Online de siempre? Sigue funcionando en GTA 5.", "k": "GTA ONLINE ACTUAL", "big": "SIGUE ACTIVO", "sub": "en GTA 5", "fx": "card"},
-      {"say": "Así que el jueves toca disfrutar la historia de Jason y Lucia, sin prisa.", "k": "EL JUEVES", "big": "MODO HISTORIA", "sub": "Jason y Lucia", "fx": "card"},
-      {"say": "Y cuando haya fecha para el online, aquí te la cuento.", "k": "SÍGUEME", "big": "GTA 6 DÍA A DÍA", "sub": "te aviso cuando haya fecha", "fx": "cta"}
-    ]
-  },
-  {
-    "id": "08", "slug": "jason-y-lucia", "accent": "#ffb347", "accent2": "#ff3d9a",
-    "title": "¿Quiénes son Jason y Lucia?",
-    "segs": [
-      {"say": "¿Quiénes son Jason y Lucia, los protagonistas de GTA 6?", "k": "GTA 6", "big": "JASON Y LUCIA", "sub": "¿quiénes son?", "fx": "hook"},
-      {"say": "Jason Duval es un exmilitar que terminó trabajando para traficantes en los Cayos de Leonida.", "k": "JASON DUVAL", "big": "EXMILITAR", "sub": "trabaja para traficantes en los Cayos", "fx": "card"},
-      {"say": "Lucia Caminos acaba de salir de prisión, y aprendió a pelear gracias a su padre.", "k": "LUCIA CAMINOS", "big": "RECIÉN LIBRE", "sub": "su padre le enseñó a pelear", "fx": "card"},
-      {"say": "Son pareja, y un golpe que sale mal los mete en una conspiración criminal por todo el estado.", "k": "LA HISTORIA", "big": "UN GOLPE SALE MAL", "sub": "y todo el estado va tras ellos", "fx": "warn"},
-      {"say": "Podrás cambiar entre los dos mientras juegas.", "k": "DOS PROTAGONISTAS", "big": "CAMBIA ENTRE ELLOS", "sub": "", "fx": "card"},
-      {"say": "Y Lucia es la primera protagonista mujer de un GTA moderno.", "k": "LUCIA", "big": "LA PRIMERA", "sub": "protagonista mujer de un GTA moderno", "fx": "stamp"},
-      {"say": "Ahora ya conoces a Jason y Lucia.", "k": "SÍGUEME", "big": "GTA 6 DÍA A DÍA", "sub": "guías desde el primer minuto", "fx": "cta"}
-    ]
-  },
-  {
-    "id": "09", "slug": "mapa-de-leonida", "accent": "#21e6c1", "accent2": "#ffb347",
-    "title": "El mapa de GTA 6: 6 zonas",
-    "segs": [
-      {"say": "El mapa de GTA 6 tiene seis zonas confirmadas. Estas son.", "k": "MAPA DE GTA 6", "big": "6 ZONAS", "sub": "confirmadas", "fx": "count"},
-      {"say": "Uno: Vice City, la ciudad de neón inspirada en Miami.", "k": "1", "big": "VICE CITY", "sub": "la ciudad de neón", "fx": "card"},
-      {"say": "Dos: los Cayos de Leonida, islas tropicales donde vive Jason.", "k": "2", "big": "LEONIDA KEYS", "sub": "islas tropicales", "fx": "card"},
-      {"say": "Tres: Grassrivers, pantanos llenos de caimanes.", "k": "3", "big": "GRASSRIVERS", "sub": "pantanos y caimanes", "fx": "card"},
-      {"say": "Cuatro: Port Gellhorn, una costa olvidada de moteles baratos.", "k": "4", "big": "PORT GELLHORN", "sub": "la costa olvidada", "fx": "card"},
-      {"say": "Cinco: Ambrosia, tierra de industria azucarera y moteros.", "k": "5", "big": "AMBROSIA", "sub": "azúcar y moteros", "fx": "card"},
-      {"say": "Seis: el Parque Nacional Monte Kalaga, para cazar, pescar y perderte en el bosque.", "k": "6", "big": "MOUNT KALAGA", "sub": "parque nacional", "fx": "card"},
-      {"say": "¿Cuál vas a explorar primero? Te leo en los comentarios.", "k": "COMENTA", "big": "¿CUÁL PRIMERO?", "sub": "sígueme para más GTA 6", "fx": "cta"}
-    ]
-  },
-  {
-    "id": "10", "slug": "10-cosas-que-hacer", "accent": "#ffd23f", "accent2": "#21e6c1",
-    "title": "10 cosas que hacer en GTA 6",
-    "segs": [
-      {"say": "Diez cosas que podrás hacer en GTA 6, además de las misiones.", "k": "GTA 6", "big": "10 COSAS", "sub": "además de las misiones", "fx": "count"},
-      {"say": "Jugar baloncesto. Entrenar en el gimnasio.", "k": "1 · 2", "big": "BALONCESTO · GIMNASIO", "sub": "", "fx": "card"},
-      {"say": "Remar en kayak. Minigolf. Billar.", "k": "3 · 4 · 5", "big": "KAYAK · MINIGOLF · BILLAR", "sub": "", "fx": "card"},
-      {"say": "Carreras. Bucear. Saltar en paracaídas.", "k": "6 · 7 · 8", "big": "CARRERAS · BUCEO · PARACAÍDAS", "sub": "", "fx": "card"},
-      {"say": "Cazar. Y pescar.", "k": "9 · 10", "big": "CAZA · PESCA", "sub": "", "fx": "card"},
-      {"say": "También habrá cientos de vehículos: superdeportivos, lanchas, todoterrenos y hasta scooters eléctricos.", "k": "VEHÍCULOS", "big": "CIENTOS", "sub": "superdeportivos · lanchas · 4x4 · scooters", "fx": "stamp"},
-      {"say": "Y un modo foto para presumirlo todo.", "k": "EXTRA", "big": "MODO FOTO", "sub": "", "fx": "card"},
-      {"say": "¿Qué vas a hacer primero al llegar a Vice City?", "k": "COMENTA", "big": "¿QUÉ HARÁS PRIMERO?", "sub": "sígueme para más GTA 6", "fx": "cta"}
-    ]
-  }
+ {
+  "id": "01",
+  "slug": "hora-de-salida",
+  "accent": "#ff3d9a",
+  "accent2": "#ffb347",
+  "title": "¿A qué hora sale GTA 6?",
+  "segs": [
+   {
+    "say": "¿A qué hora sale GTA 6? Te lo digo en treinta segundos.",
+    "k": "GTA 6",
+    "big": "¿A QUÉ HORA SALE?",
+    "sub": "",
+    "fx": "hook"
+   },
+   {
+    "say": "Sale este jueves 19 de noviembre, a la medianoche, hora local de tu país.",
+    "k": "JUEVES 19 NOV",
+    "big": "00:00",
+    "sub": "hora local de tu país",
+    "fx": "clock"
+   },
+   {
+    "say": "O sea: cuando tu reloj marque las doce de la noche del miércoles, el juego se desbloquea en PlayStation 5 y Xbox Series.",
+    "k": "SE DESBLOQUEA EN",
+    "big": "PS5 · XBOX SERIES",
+    "sub": "miércoles a las 12 de la noche",
+    "fx": "card"
+   },
+   {
+    "say": "No hay acceso anticipado: Rockstar confirmó que todos entran a la misma hora local.",
+    "k": "ACCESO ANTICIPADO",
+    "big": "NO HAY",
+    "sub": "confirmado por Rockstar",
+    "fx": "stamp"
+   },
+   {
+    "say": "¿El truco de cambiar la región a Nueva Zelanda? Nadie lo ha confirmado, y en Xbox puede romper las normas de tu cuenta.",
+    "k": "TRUCO NUEVA ZELANDA",
+    "big": "SIN CONFIRMAR",
+    "sub": "y puede romper las normas de Xbox",
+    "fx": "warn"
+   },
+   {
+    "say": "Mi consejo: deja la precarga lista hoy, porque pesa 212 gigas.",
+    "k": "PRECARGA",
+    "big": "212 GB",
+    "sub": "déjala lista hoy",
+    "fx": "count"
+   },
+   {
+    "say": "Y ahora sí, ya sabes a qué hora sale GTA 6.",
+    "k": "SÍGUEME",
+    "big": "GTA 6 DÍA A DÍA",
+    "sub": "guías desde el primer minuto",
+    "fx": "cta"
+   }
+  ]
+ },
+ {
+  "id": "02",
+  "slug": "peso-y-precarga",
+  "accent": "#21e6c1",
+  "accent2": "#ff3d9a",
+  "title": "GTA 6 pesa 212 GB",
+  "segs": [
+   {
+    "say": "GTA 6 pesa 212 gigas. Sí, escuchaste bien.",
+    "k": "GTA 6 PESA",
+    "big": "212 GB",
+    "sub": "",
+    "fx": "count"
+   },
+   {
+    "say": "Es más del doble de lo que ocupa GTA 5 en PlayStation 5.",
+    "k": "COMPARADO CON GTA 5",
+    "big": "MÁS DEL DOBLE",
+    "sub": "GTA 5 en PS5: unos 87 GB",
+    "fx": "bars"
+   },
+   {
+    "say": "La precarga ya está abierta en PlayStation 5 y en Xbox Series, pero solo si reservaste el juego.",
+    "k": "PRECARGA",
+    "big": "YA ABIERTA",
+    "sub": "solo si lo reservaste",
+    "fx": "card"
+   },
+   {
+    "say": "En una Xbox Series S de 512 gigas, se come más de la mitad del espacio disponible.",
+    "k": "XBOX SERIES S 512 GB",
+    "big": "+50%",
+    "sub": "del espacio disponible",
+    "fx": "fill"
+   },
+   {
+    "say": "Así que borra lo que no juegas y activa la descarga automática esta misma noche.",
+    "k": "HAZLO HOY",
+    "big": "LIBERA ESPACIO",
+    "sub": "y activa la descarga automática",
+    "fx": "card"
+   },
+   {
+    "say": "Con una conexión normal puede tardar horas.",
+    "k": "DESCARGA",
+    "big": "HORAS",
+    "sub": "según tu conexión",
+    "fx": "stamp"
+   },
+   {
+    "say": "Porque el jueves nadie quiere quedarse mirando una barra de descarga.",
+    "k": "SÍGUEME",
+    "big": "GTA 6 DÍA A DÍA",
+    "sub": "guías desde el primer minuto",
+    "fx": "cta"
+   }
+  ]
+ },
+ {
+  "id": "03",
+  "slug": "precio-y-ediciones",
+  "accent": "#ffd23f",
+  "accent2": "#ff3d9a",
+  "title": "GTA 6: precio y qué edición comprar",
+  "segs": [
+   {
+    "say": "¿Cuánto cuesta GTA 6 y qué edición te conviene?",
+    "k": "GTA 6",
+    "big": "¿CUÁNTO CUESTA?",
+    "sub": "",
+    "fx": "hook"
+   },
+   {
+    "say": "La edición estándar cuesta 80 dólares, o 80 euros en España.",
+    "k": "EDICIÓN ESTÁNDAR",
+    "big": "$79.99",
+    "sub": "79,99 € en España",
+    "fx": "card"
+   },
+   {
+    "say": "La Ultimate sube a 100, e incluye vehículos exclusivos, talleres de personalización y variantes de armas.",
+    "k": "EDICIÓN ULTIMATE",
+    "big": "$99.99",
+    "sub": "vehículos · talleres · armas",
+    "fx": "card"
+   },
+   {
+    "say": "Ojo: esas recompensas se desbloquean a medida que avanzas en la historia.",
+    "k": "OJO",
+    "big": "SE DESBLOQUEAN",
+    "sub": "al avanzar en la historia",
+    "fx": "warn"
+   },
+   {
+    "say": "Si reservas cualquiera de las dos antes de que termine el 19 de noviembre, te llevas el pack Vintage Vice City y un mes de GTA Plus.",
+    "k": "BONUS DE RESERVA",
+    "big": "VINTAGE VICE CITY",
+    "sub": "+ 1 mes de GTA+ · hasta el 19 nov",
+    "fx": "stamp"
+   },
+   {
+    "say": "¿Solo quieres la historia? Con la estándar tienes el juego completo.",
+    "k": "¿SOLO LA HISTORIA?",
+    "big": "ESTÁNDAR",
+    "sub": "es el juego completo",
+    "fx": "card"
+   },
+   {
+    "say": "Ahora ya sabes cuánto cuesta GTA 6.",
+    "k": "SÍGUEME",
+    "big": "GTA 6 DÍA A DÍA",
+    "sub": "guías desde el primer minuto",
+    "fx": "cta"
+   }
+  ]
+ },
+ {
+  "id": "04",
+  "slug": "sale-en-pc",
+  "accent": "#7c5cff",
+  "accent2": "#21e6c1",
+  "title": "¿GTA 6 sale en PC?",
+  "segs": [
+   {
+    "say": "¿GTA 6 sale en PC? La respuesta corta: el jueves, no.",
+    "k": "¿GTA 6 EN PC?",
+    "big": "EL JUEVES, NO",
+    "sub": "",
+    "fx": "hook"
+   },
+   {
+    "say": "El juego llega solo a PlayStation 5 y Xbox Series.",
+    "k": "LANZAMIENTO",
+    "big": "PS5 · XBOX SERIES",
+    "sub": "solo consolas",
+    "fx": "card"
+   },
+   {
+    "say": "Rockstar no ha anunciado versión de PC, ni fecha, ni requisitos.",
+    "k": "VERSIÓN DE PC",
+    "big": "SIN ANUNCIAR",
+    "sub": "ni fecha ni requisitos",
+    "fx": "stamp"
+   },
+   {
+    "say": "Así que cualquier lista de requisitos que veas hoy, no es oficial.",
+    "k": "REQUISITOS DE PC",
+    "big": "NO SON OFICIALES",
+    "sub": "desconfía de las listas",
+    "fx": "warn"
+   },
+   {
+    "say": "¿Hay esperanza? GTA 5 tardó cerca de año y medio en llegar a PC después de consolas.",
+    "k": "GTA 5 EN PC",
+    "big": "~18 MESES",
+    "sub": "después de consolas",
+    "fx": "count"
+   },
+   {
+    "say": "Y el jefe de Take-Two ha dicho que el PC es cada vez más importante para ellos.",
+    "k": "TAKE-TWO",
+    "big": "\"CADA VEZ MÁS IMPORTANTE\"",
+    "sub": "sobre el PC",
+    "fx": "card"
+   },
+   {
+    "say": "Pero por ahora, fecha oficial: ninguna. Por eso, si me preguntas...",
+    "k": "SÍGUEME",
+    "big": "GTA 6 DÍA A DÍA",
+    "sub": "te aviso cuando haya fecha",
+    "fx": "cta"
+   }
+  ]
+ },
+ {
+  "id": "05",
+  "slug": "ps4-y-xbox-one",
+  "accent": "#21e6c1",
+  "accent2": "#ffd23f",
+  "title": "¿GTA 6 en PS4 o Xbox One?",
+  "segs": [
+   {
+    "say": "¿Se puede jugar GTA 6 en PS4 o en Xbox One?",
+    "k": "GTA 6",
+    "big": "¿EN PS4 O XBOX ONE?",
+    "sub": "",
+    "fx": "hook"
+   },
+   {
+    "say": "En PS4, no. No existe versión para esa consola.",
+    "k": "PS4",
+    "big": "NO",
+    "sub": "no existe versión",
+    "fx": "stamp"
+   },
+   {
+    "say": "En Xbox One, sorpresa: sí, pero por streaming.",
+    "k": "XBOX ONE",
+    "big": "SÍ*",
+    "sub": "*por streaming",
+    "fx": "stamp"
+   },
+   {
+    "say": "Xbox confirmó que funcionará con Xbox Cloud Gaming desde el día de lanzamiento.",
+    "k": "CONFIRMADO POR XBOX",
+    "big": "CLOUD GAMING",
+    "sub": "desde el día de lanzamiento",
+    "fx": "card"
+   },
+   {
+    "say": "Necesitas comprar el juego, una buena conexión, y que el servicio esté disponible en tu país.",
+    "k": "NECESITAS",
+    "big": "JUEGO + INTERNET",
+    "sub": "y que esté disponible en tu país",
+    "fx": "card"
+   },
+   {
+    "say": "Se verá con la calidad gráfica de una Series S.",
+    "k": "GRÁFICOS",
+    "big": "NIVEL SERIES S",
+    "sub": "en la nube",
+    "fx": "card"
+   },
+   {
+    "say": "No es lo ideal, pero es la única forma anunciada de jugarlo en la generación pasada.",
+    "k": "SÍGUEME",
+    "big": "GTA 6 DÍA A DÍA",
+    "sub": "guías desde el primer minuto",
+    "fx": "cta"
+   }
+  ]
+ },
+ {
+  "id": "06",
+  "slug": "30-fps-y-ps5-pro",
+  "accent": "#ff5e3a",
+  "accent2": "#7c5cff",
+  "title": "GTA 6 va a 30 FPS",
+  "segs": [
+   {
+    "say": "GTA 6 va a 30 cuadros por segundo. En todas las consolas.",
+    "k": "GTA 6 VA A",
+    "big": "30 FPS",
+    "sub": "en todas las consolas",
+    "fx": "count"
+   },
+   {
+    "say": "Rockstar lo confirmó: PlayStation 5, Xbox Series X, Series S, y también PlayStation 5 Pro.",
+    "k": "CONFIRMADO POR ROCKSTAR",
+    "big": "PS5 · PRO · SERIES X|S",
+    "sub": "objetivo: 30 FPS",
+    "fx": "card"
+   },
+   {
+    "say": "No hay ningún modo rendimiento a 60 anunciado.",
+    "k": "MODO 60 FPS",
+    "big": "NO ANUNCIADO",
+    "sub": "",
+    "fx": "stamp"
+   },
+   {
+    "say": "¿Entonces qué gana la Pro? Imagen más nítida y sombras con trazado de rayos, exclusivas de esa consola.",
+    "k": "PS5 PRO",
+    "big": "MÁS NITIDEZ",
+    "sub": "PSSR + sombras con trazado de rayos",
+    "fx": "card"
+   },
+   {
+    "say": "Rockstar tampoco ha detallado la resolución exacta de cada consola.",
+    "k": "RESOLUCIÓN",
+    "big": "SIN DETALLAR",
+    "sub": "por ahora",
+    "fx": "warn"
+   },
+   {
+    "say": "¿Es mala noticia? Red Dead Redemption 2 también salió a 30, y se veía increíble.",
+    "k": "RED DEAD REDEMPTION 2",
+    "big": "TAMBIÉN 30",
+    "sub": "en su lanzamiento",
+    "fx": "card"
+   },
+   {
+    "say": "Así que no: comprar una Pro no te da 60.",
+    "k": "SÍGUEME",
+    "big": "GTA 6 DÍA A DÍA",
+    "sub": "guías desde el primer minuto",
+    "fx": "cta"
+   }
+  ]
+ },
+ {
+  "id": "07",
+  "slug": "tiene-online",
+  "accent": "#ff3d9a",
+  "accent2": "#21e6c1",
+  "title": "¿GTA 6 tiene online?",
+  "segs": [
+   {
+    "say": "¿GTA 6 tiene online? El día de lanzamiento, no.",
+    "k": "¿GTA 6 ONLINE?",
+    "big": "EL DÍA 1, NO",
+    "sub": "",
+    "fx": "hook"
+   },
+   {
+    "say": "Rockstar lo describe como una experiencia para un jugador.",
+    "k": "ROCKSTAR",
+    "big": "UN JUGADOR",
+    "sub": "así lo describe",
+    "fx": "card"
+   },
+   {
+    "say": "No hay modo multijugador el jueves, y tampoco hay fecha anunciada para el nuevo online.",
+    "k": "NUEVO ONLINE",
+    "big": "SIN FECHA",
+    "sub": "nada anunciado",
+    "fx": "stamp"
+   },
+   {
+    "say": "Se habla de 2027, pero eso viene de reportes, no de Rockstar.",
+    "k": "¿2027?",
+    "big": "NO ES OFICIAL",
+    "sub": "viene de reportes",
+    "fx": "warn"
+   },
+   {
+    "say": "¿Y el GTA Online de siempre? Sigue funcionando en GTA 5.",
+    "k": "GTA ONLINE ACTUAL",
+    "big": "SIGUE ACTIVO",
+    "sub": "en GTA 5",
+    "fx": "card"
+   },
+   {
+    "say": "Así que el jueves toca disfrutar la historia de Jason y Lucia, sin prisa.",
+    "k": "EL JUEVES",
+    "big": "MODO HISTORIA",
+    "sub": "Jason y Lucia",
+    "fx": "card"
+   },
+   {
+    "say": "Y cuando haya fecha para el online, aquí te la cuento.",
+    "k": "SÍGUEME",
+    "big": "GTA 6 DÍA A DÍA",
+    "sub": "te aviso cuando haya fecha",
+    "fx": "cta"
+   }
+  ]
+ },
+ {
+  "id": "08",
+  "slug": "jason-y-lucia",
+  "accent": "#ffb347",
+  "accent2": "#ff3d9a",
+  "title": "¿Quiénes son Jason y Lucia?",
+  "segs": [
+   {
+    "say": "¿Quiénes son Jason y Lucia, los protagonistas de GTA 6?",
+    "k": "GTA 6",
+    "big": "JASON Y LUCIA",
+    "sub": "¿quiénes son?",
+    "fx": "hook"
+   },
+   {
+    "say": "Jason Duval es un exmilitar que terminó trabajando para traficantes en los Cayos de Leonida.",
+    "k": "JASON DUVAL",
+    "big": "EXMILITAR",
+    "sub": "trabaja para traficantes en los Cayos",
+    "fx": "card"
+   },
+   {
+    "say": "Lucia Caminos acaba de salir de prisión, y aprendió a pelear gracias a su padre.",
+    "k": "LUCIA CAMINOS",
+    "big": "RECIÉN LIBRE",
+    "sub": "su padre le enseñó a pelear",
+    "fx": "card"
+   },
+   {
+    "say": "Son pareja, y un golpe que sale mal los mete en una conspiración criminal por todo el estado.",
+    "k": "LA HISTORIA",
+    "big": "UN GOLPE SALE MAL",
+    "sub": "y todo el estado va tras ellos",
+    "fx": "warn"
+   },
+   {
+    "say": "Podrás cambiar entre los dos mientras juegas.",
+    "k": "DOS PROTAGONISTAS",
+    "big": "CAMBIA ENTRE ELLOS",
+    "sub": "",
+    "fx": "card"
+   },
+   {
+    "say": "Y Lucia es la primera protagonista mujer de un GTA moderno.",
+    "k": "LUCIA",
+    "big": "LA PRIMERA",
+    "sub": "protagonista mujer de un GTA moderno",
+    "fx": "stamp"
+   },
+   {
+    "say": "Ahora ya conoces a Jason y Lucia.",
+    "k": "SÍGUEME",
+    "big": "GTA 6 DÍA A DÍA",
+    "sub": "guías desde el primer minuto",
+    "fx": "cta"
+   }
+  ]
+ },
+ {
+  "id": "09",
+  "slug": "mapa-de-leonida",
+  "accent": "#21e6c1",
+  "accent2": "#ffb347",
+  "title": "El mapa de GTA 6: 6 zonas",
+  "segs": [
+   {
+    "say": "El mapa de GTA 6 tiene seis zonas confirmadas. Estas son.",
+    "k": "MAPA DE GTA 6",
+    "big": "6 ZONAS",
+    "sub": "confirmadas",
+    "fx": "count"
+   },
+   {
+    "say": "Uno: Vice City, la ciudad de neón inspirada en Miami.",
+    "k": "1",
+    "big": "VICE CITY",
+    "sub": "la ciudad de neón",
+    "fx": "card"
+   },
+   {
+    "say": "Dos: los Cayos de Leonida, islas tropicales donde vive Jason.",
+    "k": "2",
+    "big": "LEONIDA KEYS",
+    "sub": "islas tropicales",
+    "fx": "card"
+   },
+   {
+    "say": "Tres: Grassrivers, pantanos llenos de caimanes.",
+    "k": "3",
+    "big": "GRASSRIVERS",
+    "sub": "pantanos y caimanes",
+    "fx": "card"
+   },
+   {
+    "say": "Cuatro: Port Gellhorn, una costa olvidada de moteles baratos.",
+    "k": "4",
+    "big": "PORT GELLHORN",
+    "sub": "la costa olvidada",
+    "fx": "card"
+   },
+   {
+    "say": "Cinco: Ambrosia, tierra de industria azucarera y moteros.",
+    "k": "5",
+    "big": "AMBROSIA",
+    "sub": "azúcar y moteros",
+    "fx": "card"
+   },
+   {
+    "say": "Seis: el Parque Nacional Monte Kalaga, para cazar, pescar y perderte en el bosque.",
+    "k": "6",
+    "big": "MOUNT KALAGA",
+    "sub": "parque nacional",
+    "fx": "card"
+   },
+   {
+    "say": "¿Cuál vas a explorar primero? Te leo en los comentarios.",
+    "k": "COMENTA",
+    "big": "¿CUÁL PRIMERO?",
+    "sub": "sígueme para más GTA 6",
+    "fx": "cta"
+   }
+  ]
+ },
+ {
+  "id": "10",
+  "slug": "10-cosas-que-hacer",
+  "accent": "#ffd23f",
+  "accent2": "#21e6c1",
+  "title": "10 cosas que hacer en GTA 6",
+  "segs": [
+   {
+    "say": "Diez cosas que podrás hacer en GTA 6, además de las misiones.",
+    "k": "GTA 6",
+    "big": "10 COSAS",
+    "sub": "además de las misiones",
+    "fx": "count"
+   },
+   {
+    "say": "Jugar baloncesto. Entrenar en el gimnasio.",
+    "k": "1 · 2",
+    "big": "BALONCESTO · GIMNASIO",
+    "sub": "",
+    "fx": "card"
+   },
+   {
+    "say": "Remar en kayak. Minigolf. Billar.",
+    "k": "3 · 4 · 5",
+    "big": "KAYAK · MINIGOLF · BILLAR",
+    "sub": "",
+    "fx": "card"
+   },
+   {
+    "say": "Carreras. Bucear. Saltar en paracaídas.",
+    "k": "6 · 7 · 8",
+    "big": "CARRERAS · BUCEO · PARACAÍDAS",
+    "sub": "",
+    "fx": "card"
+   },
+   {
+    "say": "Cazar. Y pescar.",
+    "k": "9 · 10",
+    "big": "CAZA · PESCA",
+    "sub": "",
+    "fx": "card"
+   },
+   {
+    "say": "También habrá cientos de vehículos: superdeportivos, lanchas, todoterrenos y hasta scooters eléctricos.",
+    "k": "VEHÍCULOS",
+    "big": "CIENTOS",
+    "sub": "superdeportivos · lanchas · 4x4 · scooters",
+    "fx": "stamp"
+   },
+   {
+    "say": "Y un modo foto para presumirlo todo.",
+    "k": "EXTRA",
+    "big": "MODO FOTO",
+    "sub": "",
+    "fx": "card"
+   },
+   {
+    "say": "¿Qué vas a hacer primero al llegar a Vice City?",
+    "k": "COMENTA",
+    "big": "¿QUÉ HARÁS PRIMERO?",
+    "sub": "sígueme para más GTA 6",
+    "fx": "cta"
+   }
+  ]
+ },
+ {
+  "id": "11",
+  "slug": "precarga-paso-a-paso",
+  "accent": "#21e6c1",
+  "accent2": "#ffd23f",
+  "title": "Cómo hacer la precarga de GTA 6",
+  "segs": [
+   {
+    "say": "Así se hace la precarga de GTA 6, en veinte segundos.",
+    "k": "GTA 6",
+    "big": "PRECARGA",
+    "sub": "paso a paso",
+    "fx": "hook"
+   },
+   {
+    "say": "En PlayStation 5: entra a tu biblioteca, abre GTA 6 y activa la descarga automática.",
+    "k": "EN PS5",
+    "big": "BIBLIOTECA",
+    "sub": "GTA 6 → descarga automática",
+    "fx": "card"
+   },
+   {
+    "say": "En Xbox: busca GTA 6 en la tienda y pulsa instalar.",
+    "k": "EN XBOX",
+    "big": "TIENDA",
+    "sub": "GTA 6 → instalar",
+    "fx": "card"
+   },
+   {
+    "say": "Ojo: solo aparece si ya reservaste el juego.",
+    "k": "OJO",
+    "big": "SOLO CON RESERVA",
+    "sub": "",
+    "fx": "warn"
+   },
+   {
+    "say": "Necesitas 212 gigas libres, así que revisa tu almacenamiento antes.",
+    "k": "ESPACIO LIBRE",
+    "big": "212 GB",
+    "sub": "revisa tu almacenamiento",
+    "fx": "count"
+   },
+   {
+    "say": "Y hazlo hoy: con una conexión normal tarda horas.",
+    "k": "HAZLO HOY",
+    "big": "TARDA HORAS",
+    "sub": "",
+    "fx": "stamp"
+   },
+   {
+    "k": "SÍGUEME",
+    "big": "MIAMI GAME",
+    "sub": "GTA 6 todos los días",
+    "fx": "cta",
+    "say": "Así, el jueves a medianoche, solo le das a jugar."
+   }
+  ]
+ },
+ {
+  "id": "12",
+  "slug": "truco-nueva-zelanda",
+  "accent": "#ff3d9a",
+  "accent2": "#21e6c1",
+  "title": "¿Jugar GTA 6 antes con Nueva Zelanda?",
+  "segs": [
+   {
+    "say": "¿Se puede jugar GTA 6 antes, cambiando tu consola a Nueva Zelanda?",
+    "k": "GTA 6 ANTES DE TIEMPO",
+    "big": "¿NUEVA ZELANDA?",
+    "sub": "",
+    "fx": "hook"
+   },
+   {
+    "say": "La idea es simple: allá la medianoche llega muchas horas antes.",
+    "k": "LA IDEA",
+    "big": "MEDIANOCHE ANTES",
+    "sub": "en Nueva Zelanda",
+    "fx": "clock"
+   },
+   {
+    "say": "En Xbox, el truco consiste en cambiar la ubicación de la consola y reiniciar.",
+    "k": "EN XBOX",
+    "big": "CAMBIAR UBICACIÓN",
+    "sub": "y reiniciar",
+    "fx": "card"
+   },
+   {
+    "say": "Pero ni Rockstar ni Microsoft han confirmado que funcione con este juego.",
+    "k": "ROCKSTAR Y MICROSOFT",
+    "big": "SIN CONFIRMAR",
+    "sub": "",
+    "fx": "stamp"
+   },
+   {
+    "say": "Y las normas de Xbox prohíben saltarse restricciones regionales: te arriesgas a una suspensión.",
+    "k": "RIESGO",
+    "big": "SUSPENSIÓN",
+    "sub": "va contra las normas de Xbox",
+    "fx": "warn"
+   },
+   {
+    "say": "En PlayStation 5 directamente no sirve: la cuenta queda atada al país donde la creaste.",
+    "k": "EN PS5",
+    "big": "NO SIRVE",
+    "sub": "la cuenta va atada a su país",
+    "fx": "stamp"
+   },
+   {
+    "k": "SÍGUEME",
+    "big": "MIAMI GAME",
+    "sub": "GTA 6 todos los días",
+    "fx": "cta",
+    "say": "Mi consejo: espera a tu medianoche. Son solo unas horas."
+   }
+  ]
+ },
+ {
+  "id": "13",
+  "slug": "ultimate-vale-la-pena",
+  "accent": "#ffd23f",
+  "accent2": "#7c5cff",
+  "title": "GTA 6 Ultimate: ¿vale la pena?",
+  "segs": [
+   {
+    "say": "¿Vale la pena pagar 20 dólares más por la edición Ultimate de GTA 6?",
+    "k": "EDICIÓN ULTIMATE",
+    "big": "+$20",
+    "sub": "¿vale la pena?",
+    "fx": "hook"
+   },
+   {
+    "say": "Esto es lo que trae: dos vehículos exclusivos, el Vapid Dominator Buggy y el Grotti Cheetah.",
+    "k": "2 VEHÍCULOS",
+    "big": "BUGGY + CHEETAH",
+    "sub": "Vapid Dominator Buggy · Grotti Cheetah",
+    "fx": "card"
+   },
+   {
+    "say": "Talleres de personalización propios.",
+    "k": "INCLUYE",
+    "big": "TALLERES",
+    "sub": "de personalización",
+    "fx": "card"
+   },
+   {
+    "say": "Variantes de armas y estilos.",
+    "k": "INCLUYE",
+    "big": "ARMAS Y ESTILOS",
+    "sub": "variantes exclusivas",
+    "fx": "card"
+   },
+   {
+    "say": "Y acceso prioritario a una tienda de ropa, una peluquería y un estudio de tatuajes.",
+    "k": "ACCESO PRIORITARIO",
+    "big": "ROPA · PELO · TATUAJES",
+    "sub": "",
+    "fx": "card"
+   },
+   {
+    "say": "El detalle: todo se desbloquea a medida que avanzas en la historia, no desde el primer minuto.",
+    "k": "EL DETALLE",
+    "big": "NO DESDE EL MINUTO 1",
+    "sub": "se desbloquea al avanzar",
+    "fx": "warn"
+   },
+   {
+    "k": "SÍGUEME",
+    "big": "MIAMI GAME",
+    "sub": "GTA 6 todos los días",
+    "fx": "cta",
+    "say": "Si solo quieres jugar la historia, la estándar es el mismo juego."
+   }
+  ]
+ },
+ {
+  "id": "14",
+  "slug": "bonus-ultimo-dia",
+  "accent": "#ff5e3a",
+  "accent2": "#ffd23f",
+  "title": "GTA 6: último día del pack gratis",
+  "segs": [
+   {
+    "say": "Hoy es el último día para llevarte gratis el pack Vintage Vice City de GTA 6.",
+    "k": "ÚLTIMO DÍA",
+    "big": "PACK GRATIS",
+    "sub": "Vintage Vice City",
+    "fx": "hook"
+   },
+   {
+    "say": "Según la tienda de Xbox, lo recibes si compras cualquier edición antes de las 23:59 del 19 de noviembre.",
+    "k": "HASTA",
+    "big": "23:59",
+    "sub": "del 19 de noviembre",
+    "fx": "clock"
+   },
+   {
+    "say": "Incluye un coche clásico, el Vapid Stanier del 55, con su propio garaje.",
+    "k": "INCLUYE",
+    "big": "STANIER DEL 55",
+    "sub": "con garaje propio",
+    "fx": "card"
+   },
+   {
+    "say": "Atuendos y peinados vintage.",
+    "k": "INCLUYE",
+    "big": "LOOK VINTAGE",
+    "sub": "atuendos y peinados",
+    "fx": "card"
+   },
+   {
+    "say": "Y un diseño de arma inspirado en la camisa de Tommy Vercetti.",
+    "k": "INCLUYE",
+    "big": "ARMA VERCETTI",
+    "sub": "diseño inspirado en su camisa",
+    "fx": "card"
+   },
+   {
+    "say": "Además, un mes de GTA Plus.",
+    "k": "ADEMÁS",
+    "big": "1 MES DE GTA+",
+    "sub": "",
+    "fx": "stamp"
+   },
+   {
+    "k": "SÍGUEME",
+    "big": "MIAMI GAME",
+    "sub": "GTA 6 todos los días",
+    "fx": "cta",
+    "say": "Mañana ya no estará. Si lo ibas a comprar igual, hazlo hoy."
+   }
+  ]
+ }
 ]
