@@ -1,0 +1,5 @@
+gta6-canal/out/
+gta6-canal/build/*.mp4
+gta6-canal/build/*.jpg
+gta6-canal/build/*.log
+gta6-canal/build/v*.json
