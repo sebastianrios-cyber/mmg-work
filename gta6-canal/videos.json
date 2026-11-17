@@ -940,5 +940,63 @@
     "fx": "cta"
    }
   ]
+ },
+ {
+  "id": "17",
+  "slug": "dia-libre-gta6",
+  "accent": "#7c5cff",
+  "accent2": "#ff3d9a",
+  "title": "Pedí el día libre para GTA 6",
+  "segs": [
+   {
+    "say": "GTA 6 sale el jueves. Así que le pedí el día libre a mi jefe.",
+    "k": "EL JUEVES",
+    "big": "DÍA LIBRE",
+    "sub": "se lo pedí a mi jefe",
+    "fx": "hook"
+   },
+   {
+    "say": "Me dijo que no. Que necesitaba una razón de verdad.",
+    "k": "MI JEFE",
+    "big": "NO",
+    "sub": "quería una razón de verdad",
+    "fx": "stamp"
+   },
+   {
+    "say": "Así que le dije que mi abuela estaba muy enferma. Me dio el día.",
+    "k": "LE DIJE",
+    "big": "MI ABUELA",
+    "sub": "muy enferma",
+    "fx": "warn"
+   },
+   {
+    "say": "El jueves en la mañana, mi abuela me llamó.",
+    "k": "JUEVES, 8 AM",
+    "big": "MI ABUELA",
+    "sub": "me llamó",
+    "fx": "card"
+   },
+   {
+    "say": "Mi jefe le había mandado flores. Con una tarjeta.",
+    "k": "MI JEFE",
+    "big": "LE MANDÓ FLORES",
+    "sub": "con una tarjeta",
+    "fx": "card"
+   },
+   {
+    "say": "La tarjeta decía: que se mejore. Y abajo: dígale a su nieto que el lunes hablamos.",
+    "k": "LA TARJETA",
+    "big": "EL LUNES HABLAMOS",
+    "sub": "",
+    "fx": "stamp"
+   },
+   {
+    "say": "Ahora tengo GTA 6, y todo el tiempo libre del mundo.",
+    "k": "AHORA TENGO",
+    "big": "TODO EL TIEMPO",
+    "sub": "sígueme: Miami Game",
+    "fx": "cta"
+   }
+  ]
  }
 ]

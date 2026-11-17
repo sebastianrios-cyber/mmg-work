@@ -21,8 +21,9 @@ const T = {
   '14': [0, 5.2, 12.08, 16.92, 18.68, 21.92, 24.32, 27.84],
   '15': [0, 7.12, 10.8, 15.6, 21.81, 26.56, 28.96, 32.56],
   '16': [0, 5.6, 9.36, 13.2, 18.32, 23.52, 29.84, 35.76],
+  '17': [0, 4.32, 7.44, 11.28, 13.52, 16.56, 21.84, 25.68],
 };
-const TAG = { '01': 'LANZAMIENTO', '02': 'PRECARGA', '03': 'PRECIO', '04': 'PC', '05': 'CONSOLAS', '06': 'RENDIMIENTO', '07': 'ONLINE', '08': 'HISTORIA', '09': 'MAPA', '10': 'ACTIVIDADES', '11': 'PRECARGA', '12': 'TRUCO', '13': 'EDICIONES', '14': 'ÚLTIMO DÍA', '15': 'HUMOR', '16': 'HUMOR' };
+const TAG = { '01': 'LANZAMIENTO', '02': 'PRECARGA', '03': 'PRECIO', '04': 'PC', '05': 'CONSOLAS', '06': 'RENDIMIENTO', '07': 'ONLINE', '08': 'HISTORIA', '09': 'MAPA', '10': 'ACTIVIDADES', '11': 'PRECARGA', '12': 'TRUCO', '13': 'EDICIONES', '14': 'ÚLTIMO DÍA', '15': 'HUMOR', '16': 'HUMOR', '17': 'HUMOR' };
 
 function build(id) {
   const v = JSON.parse(fs.readFileSync(path.join(ROOT, 'videos.json'), 'utf8')).find(x => x.id === id);
@@ -46,7 +47,7 @@ function build(id) {
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
   await page.addInitScript(vv => { window.__VIDEO__ = vv; }, v);
-  await page.goto('file://' + path.join(__dirname, 'template.html'));
+  await page.goto('file://' + path.join(__dirname, process.env.TPL || 'template.html'));
   await page.waitForFunction('window.__READY__===true');
   await page.evaluate(() => document.fonts.ready);
   if (stillArg > 0) {
