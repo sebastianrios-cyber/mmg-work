@@ -19,3 +19,8 @@ gta6-canal/dialogo/*.jpg
 gta6-canal/countdown/*.mp4
 gta6-canal/countdown/*.jpg
 gta6-canal/countdown/m.raw
+gta6-canal/anim3d/*/p*.mp4
+gta6-canal/anim3d/*/silent.mp4
+gta6-canal/anim3d/*/stills*/
+gta6-canal/anim3d/*/*.log
+gta6-canal/anim3d/*/node_modules
