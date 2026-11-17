@@ -67,7 +67,7 @@ const $=id=>document.getElementById(id), clamp=(x,a=0,b=1)=>Math.max(a,Math.min(
 const eo=x=>1-Math.pow(1-clamp(x),3), eb=x=>{x=clamp(x);const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
 const hl=s=>s.replace(/\*([^*]+)\*/g,'<span class="y">$1</span>');
 // timing
-let t0=0; S.scenes.forEach(sc=>{const w=sc.cap.replace(/\*/g,'').split(/\s+/).length; sc.dur=Math.max(3.2,Math.min(5.6,w*0.34+1.5)); sc.t0=t0; t0+=sc.dur;});
+const VO=window.__VO__; let t0=0; S.scenes.forEach((sc,i)=>{const w=sc.cap.replace(/\*/g,'').split(/\s+/).length; sc.vo=VO?VO[i]:0; sc.dur=VO?Math.max(2.9,VO[i]+0.75):Math.max(3.2,Math.min(5.6,w*0.34+1.5)); sc.t0=t0; t0+=sc.dur;});
 const TOTAL=t0+0.6; window.TOTAL=TOTAL;
 // particles
 const P=[]; let seed=7; const rnd=()=>(seed=(seed*16807)%2147483647)/2147483647;
@@ -93,7 +93,7 @@ S.scenes.forEach((sc,i)=>{
  if(sc.t==='vs') cues.push({t:sc.t0+0.3,k:'pop'},{t:sc.t0+0.6,k:'pop'},{t:sc.t0+0.9,k:'impact'});
  if(sc.t==='meter') cues.push({t:sc.t0+0.4,k:'riser'},{t:sc.t0+1.6,k:'impact'});
 });
-window.CUES=cues;
+window.CUES=cues; window.__STARTS__=S.scenes.map(x=>x.t0);
 const fmt=(sc,v)=>{let s=Math.round(v).toLocaleString('es-ES'); if(sc.to>=1000&&sc.to<10000&&sc.to%1000===0&&sc.pre==='$') s=Math.round(v).toLocaleString('es-ES'); if(sc.to>=2000&&sc.to<2100) s=String(Math.round(v)); return (sc.pre||'')+s+(sc.suf||'');};
 window.renderAt=t=>{
  // ambient
@@ -123,8 +123,8 @@ window.renderAt=t=>{
  if($('cap').dataset.k!==String(S.scenes.indexOf(cur))){ $('cap').dataset.k=S.scenes.indexOf(cur);
   const ws=[]; cur.cap.replace(/\*([.,;:!?…]+)/g,'$1*').split(/(\*[^*]+\*)/).forEach(seg=>{ if(!seg) return; const y=seg.startsWith('*'); seg.replace(/\*/g,'').split(/\s+/).filter(Boolean).forEach(w=>ws.push(`<span class="${y?'y':''}">${w}</span>`)); });
   $('cap').innerHTML=ws.join(' ');}
- const spans=[...$('cap').children], per=Math.min(0.16,(cur.dur*0.55)/spans.length);
- spans.forEach((s,j)=>{const a=eo((lt-0.15-j*per)/0.22); s.style.opacity=a; s.style.transform=`translateY(${(1-a)*24}px)`;});
+ const spans=[...$('cap').children], per=cur.vo?(cur.vo*0.92)/spans.length:Math.min(0.16,(cur.dur*0.55)/spans.length);
+ spans.forEach((s,j)=>{const a=eo((lt-(cur.vo?0.2:0.15)-j*per)/0.18); s.style.opacity=a; s.style.transform=`translateY(${(1-a)*24}px)`;});
 };
 window.__READY__=true;
 </script></body></html>

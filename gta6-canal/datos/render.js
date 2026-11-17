@@ -5,11 +5,12 @@ const { chromium } = require('playwright'); const { spawn } = require('child_pro
   const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1920, height: 1080 } });
   p.on('pageerror', e => console.log('ERR', e.message));
   const i = process.argv[2], out = process.argv[3], si = process.argv.indexOf('--still');
+  const vf=`voz/vo_${String(+i+1).padStart(2,'0')}.json`; if (process.env.VO && fs.existsSync(vf)) await p.addInitScript(v => { window.__VO__ = v; }, JSON.parse(fs.readFileSync(path.join(__dirname, vf))).voice);
   await p.goto(`http://localhost:${srv.address().port}/datos.html?i=${i}`); await p.waitForFunction('window.__READY__'); await p.evaluate(() => document.fonts.ready);
   const dur = await p.evaluate(() => TOTAL); const cues = await p.evaluate(() => CUES);
   if (si > 0) { for (const t of process.argv[si + 1].split(',')) { await p.evaluate(t => renderAt(t), +t); await p.screenshot({ path: `${out}_${t}.jpg`, type: 'jpeg', quality: 80 }); } }
   else {
-    fs.writeFileSync(out.replace(/\.mp4$/, '.json'), JSON.stringify({ dur, cues }));
+    const starts = await p.evaluate(() => window.__STARTS__); fs.writeFileSync(out.replace(/\.mp4$/, '.json'), JSON.stringify({ dur, cues, starts }));
     const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', '30', '-c:v', 'mjpeg', '-i', '-', '-c:v', 'libx264', '-crf', '18', '-pix_fmt', 'yuv420p', out], { stdio: ['pipe', 'inherit', 'inherit'] });
     for (let f = 0; f < Math.round(dur * 30); f++) { await p.evaluate(t => renderAt(t), f / 30); const buf = await p.screenshot({ type: 'jpeg', quality: 92 }); if (!ff.stdin.write(buf)) await new Promise(r => ff.stdin.once('drain', r)); }
     ff.stdin.end(); await new Promise(r => ff.on('close', r));
