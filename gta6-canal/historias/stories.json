@@ -1,0 +1,32 @@
+[
+ {"slug":"la-precarga","title":"Abuela, no apagues el router 😭","lines":[
+  ["N","Abuela, no apagues el router.","beg"],["A","¿Por qué no?","neutral"],["N","Estoy descargando GTA 6.","happy"],["A","¿Y cuánto pesa eso?","neutral"],
+  ["N","212 gigas.","smug","212 GB"],["A","Con razón no carga mi novela.","angry","¡MI NOVELA!"],["N","Abuela, es GTA 6...","beg"],["A","Y esta es mi novela. Apágalo.","smug"]]},
+ {"slug":"la-ultimate","title":"Le pedí a mi abuela la Ultimate de GTA 6","lines":[
+  ["N","Abuela, ¿me compras GTA 6?","beg"],["A","¿Cuánto cuesta?","neutral"],["N","Ochenta dólares la normal.","neutral"],["A","¿Y la otra?","neutral"],
+  ["N","Cien. Trae coches exclusivos.","happy"],["A","Yo ya tengo coche.","smug"],["N","¿Me lo prestas?","beg"],["A","No. Te compro la normal.","smug","$80"]]},
+ {"slug":"la-ps4","title":"Reservé GTA 6 para mi PS4… 💀","lines":[
+  ["N","¡Abuela, ya reservé GTA 6!","happy"],["A","¿Para qué consola?","neutral"],["N","Para la mía, la PS4.","happy"],["A","Mijo, sale solo en PS5 y Xbox Series.","smug"],
+  ["N","...","shock","¡¿QUÉ?!"],["N","Abuela... ¿y tus ahorros?","beg"],["A","Ni lo sueñes.","angry"]]},
+ {"slug":"la-compu","title":"¿GTA 6 en PC? Mi abuela me lo explicó","lines":[
+  ["N","Lo voy a jugar en la compu.","happy"],["A","¿Y sale en compu?","neutral"],["N","Claro... ¿no?","neutral"],["A","Rockstar no ha anunciado versión de PC.","smug"],
+  ["N","¿Y cuándo sale?","shock"],["A","Nadie sabe. GTA 5 tardó año y medio.","smug","¡¿AÑO Y MEDIO?!"],["A","Te da tiempo de hacer la tarea.","happy"]]},
+ {"slug":"el-online","title":"Mi abuela jugaba Vice City antes que yo","lines":[
+  ["N","El jueves juego online con mis amigos.","happy"],["A","GTA 6 sale solo para un jugador.","smug"],["N","¿Y el online?","shock"],["A","Todavía no tiene fecha.","neutral"],
+  ["N","¿Entonces juego solo?","sad"],["A","Juegas conmigo.","happy"],["N","¿Tú sabes jugar?","shock"],["A","Jugaba Vice City cuando tú usabas pañal.","smug","2002"]]},
+ {"slug":"la-medianoche","title":"Quería jugar GTA 6 a medianoche…","lines":[
+  ["N","Abuela, mañana me despierto a las doce.","happy"],["A","¿Del mediodía?","neutral"],["N","De la noche. Se desbloquea a medianoche.","smug"],["A","¿Y la escuela?","angry"],
+  ["N","Voy dormido.","happy"],["A","Vas despierto. Y temprano.","angry"],["N","Pero abuela...","beg"],["A","Te despierto yo. A las seis.","smug","6 AM"]]},
+ {"slug":"las-fotos","title":"Borré las fotos de mi abuela por GTA 6","lines":[
+  ["N","Abuela, borré tus fotos de la consola.","beg"],["A","¿Cuáles fotos?","neutral"],["N","Las del viaje a la playa.","beg"],["A","¿¡Por qué!?","angry"],
+  ["N","GTA 6 pesa 212 gigas.","beg"],["A","¿Y tus partidas?","neutral"],["N","Esas no se tocan.","smug"],["A","Entonces el control tampoco.","smug","¡CONFISCADO!"]]},
+ {"slug":"los-30-fps","title":"Me quejé de los 30 FPS con mi abuela","lines":[
+  ["N","GTA 6 va a treinta cuadros por segundo.","sad"],["A","¿Eso es bueno o malo?","neutral"],["N","Hasta en la PS5 Pro.","sad"],["A","¿Y se ve bonito?","neutral"],
+  ["N","Se ve increíble.","happy"],["A","¿Entonces cuál es el problema?","neutral"],["N","Que quería quejarme.","beg"],["A","Quéjate en tu cuarto.","smug","¡FUERA!"]]},
+ {"slug":"jason-y-lucia","title":"Mi abuela conoció a Jason y Lucia","lines":[
+  ["A","¿Quiénes son esos de la tele?","neutral"],["N","Jason y Lucia, los de GTA 6.","happy"],["A","¿Son novios?","neutral"],["N","Sí, y se meten en problemas.","happy"],
+  ["A","Como tu tío y su esposa.","smug"],["N","¡Abuela, es un juego!","shock"],["A","Tu tío también decía eso.","smug","¡JAJA!"]]},
+ {"slug":"el-mapa","title":"Le enseñé el mapa de GTA 6 a mi abuela","lines":[
+  ["N","El estado de GTA 6 se llama Leonida.","happy"],["A","¿Y es grande?","neutral"],["N","Tiene ciudad, pantanos, islas y montañas.","happy"],["A","¿Y caimanes?","shock"],
+  ["N","Sí, en los pantanos.","happy"],["A","Entonces yo no juego.","shock"],["N","Abuela, son de mentira.","beg"],["A","Eso dijo tu abuelo de la iguana.","smug","¡LA IGUANA!"]]}
+]
