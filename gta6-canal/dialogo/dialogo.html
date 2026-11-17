@@ -81,10 +81,61 @@ document.documentElement.dataset.style=ST;
 [data-style=neon] #bub{background:#0d0b1f;color:#fff;border-color:#21e6c1;box-shadow:0 0 30px #21e6c1}
 [data-style=neon] #bub .t{color:#fff}
 </style>
-<svg width="0" height="0" style="position:absolute"><filter id="paper"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" result="n"/><feColorMatrix in="n" type="saturate" values="0" result="g"/><feBlend in="SourceGraphic" in2="g" mode="multiply"/></filter></svg></head><body>
+<svg width="0" height="0" style="position:absolute"><filter id="paper"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" result="n"/><feColorMatrix in="n" type="saturate" values="0" result="g"/><feBlend in="SourceGraphic" in2="g" mode="multiply"/></filter></svg><style>
+/* cómic: viñeta, tramado, caja de narrador */
+[data-style=comic] #wall{background:#ffde59!important}
+[data-style=comic] #wall:after{background:radial-gradient(circle,#f08c1a 28%,transparent 30%) 0 0/26px 26px!important;opacity:.55}
+[data-style=comic] #floor{background:#e94b3c!important}
+[data-style=comic] #floor:after{content:"";position:absolute;inset:0;background:radial-gradient(circle,rgba(0,0,0,.25) 26%,transparent 28%) 0 0/22px 22px}
+[data-style=comic] #rug{background:#2bb3e6!important}
+[data-style=comic] #sofa .back{background:#3a6fe0!important}[data-style=comic] #sofa .seat{background:#4c86ff!important}
+[data-style=comic] #panel{display:block}
+[data-style=comic] #narr{display:block}
+[data-style=comic] #bub .t{font-style:italic}
+#panel{display:none;position:absolute;inset:0;border:34px solid #fff;box-shadow:inset 0 0 0 10px #1a1022;pointer-events:none}
+#narr{display:none;position:absolute;left:70px;top:160px;background:#fff36b;border:7px solid #1a1022;padding:12px 22px;font-weight:900;font-size:34px;color:#1a1022;transform:rotate(-2deg);box-shadow:8px 8px 0 #1a1022}
+[data-style=comic] #bub{box-shadow:10px 10px 0 #1a1022}
+[data-style=comic] #top{top:-200px}
+/* retro años 30: blanco y negro, guantes, grano */
+[data-style=retro] #cam{filter:grayscale(1) sepia(.35) contrast(1.25) brightness(1.05)}
+[data-style=retro] #grain{display:block}
+[data-style=retro] .pup svg [fill="#f2c29b"]{fill:#fff}
+[data-style=retro] #Npl,[data-style=retro] #Npr{}
+[data-style=retro] .pup svg circle[r="20"]{r:27px}
+[data-style=retro] #bub{background:#f4ecd8;filter:grayscale(1) sepia(.3)}
+[data-style=retro] #top{filter:grayscale(1)}
+#grain{display:none;position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at center,transparent 55%,rgba(0,0,0,.55));mix-blend-mode:multiply}
+#scratch{position:absolute;inset:0;pointer-events:none;display:none}
+[data-style=retro] #scratch{display:block}
+</style><style>
+[data-style=pro] #wall,[data-style=pro] #tv,[data-style=pro] #lamp,[data-style=pro] #sofa,[data-style=pro] #win,[data-style=pro] #rug{display:none}
+[data-style=pro] #floor{display:none}
+[data-style=pro] #probg{display:block}
+#probg{display:none;position:absolute;inset:-40px;background:url(bg_room.jpg) center 30%/cover;filter:blur(5px) brightness(.62) saturate(1.15)}
+#prograd{display:none;position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,6,25,.35),rgba(10,6,25,0) 35%,rgba(10,6,25,.25) 60%,rgba(10,6,25,.9))}
+[data-style=pro] #prograd{display:block}
+.fshadow{display:none;position:absolute;top:1490px;width:420px;height:70px;border-radius:50%;background:radial-gradient(rgba(0,0,0,.6),transparent 70%)}
+[data-style=pro] .fshadow{display:none}
+[data-style=pro] .pup{top:1070px;width:640px;height:748px}
+[data-style=pro] #N{left:-60px}[data-style=pro] #A{left:500px}
+[data-style=pro] .pup svg{width:640px;height:748px}
+[data-style=pro] .pup svg :is(path,circle,ellipse,rect):not([stroke]){stroke:#24132f!important;stroke-width:5px}
+[data-style=pro] .pup svg .shade{opacity:.16!important;stroke:none!important}
+[data-style=pro] .pup svg ellipse.shade{opacity:.22!important}
+[data-style=pro] #N svg{filter:drop-shadow(-5px 0 0 rgba(255,61,154,.85)) drop-shadow(0 0 22px rgba(255,61,154,.25))!important}
+[data-style=pro] #A svg{filter:drop-shadow(5px 0 0 rgba(33,230,193,.85)) drop-shadow(0 0 22px rgba(33,230,193,.25))!important}
+[data-style=pro] #bub{border:none;border-radius:34px;background:rgba(255,255,255,.96);box-shadow:0 18px 40px rgba(0,0,0,.45);padding:28px 34px 30px}
+[data-style=pro] #bub .t{font-weight:800;font-size:56px;text-transform:none;letter-spacing:-.01em;line-height:1.12}
+[data-style=pro] #bub .n{border:none;top:-22px;font-size:26px;padding:8px 18px;color:#fff;letter-spacing:.14em}
+[data-style=pro] #bub:after{border-top-color:rgba(255,255,255,.96)}[data-style=pro] #bub:before{display:none}
+[data-style=pro] #pow{-webkit-text-stroke:0;text-shadow:0 8px 0 #24132f,0 0 40px rgba(255,210,63,.6);font-size:110px}
+[data-style=pro] #vig{display:block}
+#vig{display:none;position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 55%,transparent 55%,rgba(0,0,0,.55))}
+[data-style=pro] #top{top:56px}
+</style></head><body>
 <div id="cam">
  <div id="wall"></div>
- <div id="win"></div><div id="tv"><div id="scr"><div id="sun"></div><div class="palm" style="left:60px"></div><div class="palm" style="left:110px;height:70px"></div><div class="palm" style="right:70px"></div></div></div>
+ <div id="probg"></div><div id="prograd"></div><div class="fshadow" style="left:60px"></div><div class="fshadow" style="left:600px"></div><div id="win"></div><div id="tv"><div id="scr"><div id="sun"></div><div class="palm" style="left:60px"></div><div class="palm" style="left:110px;height:70px"></div><div class="palm" style="right:70px"></div></div></div>
  <div id="lamp"><div class="sh"></div><div class="po"></div></div>
  <div id="floor"></div><div id="rug"></div>
  <div id="sofa"><div class="back"></div><div class="seat"></div><div class="c1"></div><div class="c2"></div></div>
@@ -93,6 +144,7 @@ document.documentElement.dataset.style=ST;
 <div id="top"><span id="tag">GTA 6</span><span id="tag2">HUMOR</span></div>
 <div id="cap"><div id="who"></div><div id="txt"></div></div>
 <svg width="0" height="0" style="position:absolute"><filter id="ol"><feMorphology in="SourceAlpha" operator="dilate" radius="5" result="d"/><feFlood flood-color="#1a1022"/><feComposite in2="d" operator="in" result="o"/><feMerge><feMergeNode in="o"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg><div id="bub"><div class="n"></div><div class="t"></div></div><div id="pow"></div>
+<div id="vig"></div><div id="panel"></div><div id="narr">MIENTRAS TANTO, EN LA SALA...</div><div id="grain"></div><canvas id="scratch" width="1080" height="1920"></canvas>
 <div id="foot">Miami Game · Canal no oficial · Animación hecha por computadora, voces sintéticas</div>
 <div id="flash"></div>
 <script type="module">
@@ -100,7 +152,7 @@ import { LINES, ENV, CAPS, TOTAL } from './data.js';
 const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)), eOut=x=>1-Math.pow(1-clamp(x),3);
 function svg(o){ return `<svg viewBox="0 0 600 700" width="560" height="654">
  <g id="${o.id}body">
-  <path d="M95 700 C95 520 170 455 300 455 C430 455 505 520 505 700 Z" fill="${o.top}"/>
+  <path d="M95 700 C95 520 170 455 300 455 C430 455 505 520 505 700 Z" fill="${o.top}"/><path class="shade" d="M330 458 C440 470 505 540 505 700 L380 700 C380 590 370 520 330 458Z" fill="#000" opacity="0"/>
   ${o.shawl?`<path d="M150 500 C200 560 400 560 450 500 L430 470 C380 520 220 520 170 470 Z" fill="#f5e6c8"/>`:`<path d="M255 470 L300 540 L345 470" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".85"/>`}
   <g id="${o.id}arms">
    <path d="M130 600 C150 540 200 560 220 600" stroke="${o.top}" stroke-width="58" stroke-linecap="round" fill="none"/>
@@ -112,7 +164,7 @@ function svg(o){ return `<svg viewBox="0 0 600 700" width="560" height="654">
  <g id="${o.id}head">
   <rect x="268" y="400" width="64" height="70" rx="20" fill="#e3ad83"/>
   <circle cx="122" cy="265" r="34" fill="#e3ad83"/><circle cx="478" cy="265" r="34" fill="#e3ad83"/>
-  <circle cx="300" cy="255" r="178" fill="#f2c29b"/>
+  <circle cx="300" cy="255" r="178" fill="#f2c29b"/><path class="shade" d="M330 79 A178 178 0 0 1 330 431 A150 178 0 0 0 330 79Z" fill="#7a3b2e" opacity="0"/><ellipse class="shade" cx="235" cy="150" rx="70" ry="34" fill="#fff" opacity="0"/>
   ${o.cap?`<path d="M128 190 C140 70 460 70 472 190 C470 170 380 130 300 130 C220 130 130 170 128 190 Z" fill="#3a2418"/>
    <path d="M120 175 C130 40 470 40 480 175 L120 175 Z" fill="${o.cap}"/><path d="M120 175 L480 175" stroke="#07060d" stroke-width="8"/>
    <path d="M440 168 C520 160 560 175 565 190 L470 190 Z" fill="${o.cap}"/>`:''}
@@ -170,9 +222,10 @@ window.renderAt=function(t){
  else { s=1+0.04*clamp(lt/4); }
  $('cam').style.transformOrigin=`${ox}px ${oy}px`; $('cam').style.transform=`scale(${s}) translate(${Math.sin(t*0.8)*4}px,${Math.cos(t*0.6)*3}px)`;
  $('flash').style.opacity=li>0?Math.max(0,1-lt/0.1)*0.35:0;
+ if(document.documentElement.dataset.style==='retro'){ const cv=$('scratch'),g=cv.getContext('2d'); g.clearRect(0,0,1080,1920); let r=Math.floor(t*12)*9301+49297; const rnd=()=>((r=(r*9301+49297)%233280)/233280); g.fillStyle='rgba(30,20,10,.35)'; for(let i=0;i<900;i++){g.fillRect(rnd()*1080,rnd()*1920,2,2);} g.fillStyle='rgba(255,255,255,.5)'; for(let i=0;i<2;i++){g.fillRect(rnd()*1080,0,2,1920);} $('cam').style.transform+=` translate(${(rnd()-.5)*4}px,${(rnd()-.5)*4}px)`; }
  // bocadillos
  const ci=CAPS.filter(c=>t>=c[0]).pop(); const sh=ci&&(ci.length<4||t<ci[3]); const B=$('bub'); B.style.opacity=sh?1:0;
- if(sh){ const w=ci[2]; B.className=w==='N'?'L':'R'; B.style.left=w==='N'?'60px':'400px'; B.querySelector('.n').textContent=w==='N'?'NIETO':'ABUELA'; B.querySelector('.n').style.background=w==='N'?'#a98bff':'#ffb3c6'; B.querySelector('.t').textContent=ci[1]; const k=clamp((t-ci[0])/0.14); B.style.transform=`scale(${0.85+0.15*eOut(k)}) rotate(${w==='N'?-1.5:1.5}deg)`; }
+ if(sh){ const w=ci[2]; B.className=w==='N'?'L':'R'; B.style.left=w==='N'?'60px':'400px'; B.querySelector('.n').textContent=w==='N'?'NIETO':'ABUELA'; B.querySelector('.n').style.background=document.documentElement.dataset.style==='pro'?(w==='N'?'#ff3d9a':'#17b89c'):(w==='N'?'#a98bff':'#ffb3c6'); B.querySelector('.t').textContent=ci[1]; const k=clamp((t-ci[0])/0.14); B.style.transform=`scale(${0.85+0.15*eOut(k)}) rotate(${w==='N'?-1.5:1.5}deg)`; }
  const POW={4:['¡¿13 AÑOS?!',700,560],1:['¿¡$80!?',620,540],8:['¡2027!',300,600]}; const pw=POW[li]; const P=$('pow');
  if(pw&&lt<1.4){ P.textContent=pw[0]; P.style.left=pw[1]+'px'; P.style.top=pw[2]+'px'; P.style.opacity=clamp((1.4-lt)/0.3); P.style.transform=`translate(-50%,-50%) scale(${eOut(clamp(lt/0.18))*1.0+0.1}) rotate(-8deg)`; } else P.style.opacity=0;
  // subtítulos

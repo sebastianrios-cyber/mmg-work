@@ -1,7 +1,7 @@
 // node render_dlg.js <out.mp4> <dur> [--still t1,t2]
 const { chromium } = require('playwright'); const { spawn } = require('child_process'); const http = require('http'), fs = require('fs'), path = require('path');
 (async () => {
-  const srv = http.createServer((q, r) => { const p = path.join(__dirname, q.url.split('?')[0]); fs.readFile(p, (e, d) => { if (e) { r.writeHead(404); r.end(); return; } r.writeHead(200, { 'content-type': p.endsWith('.js') ? 'text/javascript' : 'text/html' }); r.end(d); }); }).listen(0);
+  const srv = http.createServer((q, r) => { const p = path.join(__dirname, q.url.split('?')[0]); fs.readFile(p, (e, d) => { if (e) { r.writeHead(404); r.end(); return; } r.writeHead(200, { 'content-type': p.endsWith('.js') ? 'text/javascript' : p.endsWith('.jpg') ? 'image/jpeg' : 'text/html' }); r.end(d); }); }).listen(0);
   const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1080, height: 1920 } });
   p.on('pageerror', e => console.log('ERR', e.message));
   await p.goto(`http://localhost:${srv.address().port}/dialogo.html?style=${process.env.STYLE||''}`); await p.waitForFunction('window.__READY__'); await p.evaluate(() => document.fonts.ready);
