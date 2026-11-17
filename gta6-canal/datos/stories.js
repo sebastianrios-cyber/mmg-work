@@ -7,7 +7,7 @@ export const STORIES = [
  {t:'count', pill:'AÑOS SIN UN GTA NUEVO', from:0, to:13, suf:'', label:'años', note:'2013 → 2026', cap:'Pasaron *13 años* sin un GTA nuevo. Una generación entera creció jugando el mismo.'},
  {t:'timeline', pill:'DICIEMBRE 2023', pts:[['2013','GTA 5'],['2018','RDR 2'],['2023','Tráiler 1'],['2026','GTA 6']], hi:2, cap:'En 2023 llegó el primer tráiler. Rompió récords en un día.'},
  {t:'cards', pill:'LOS RETRASOS', items:[['2025','fecha original','x'],['26 MAY 2026','primer retraso','x'],['19 NOV 2026','fecha final','ok']], cap:'Luego vinieron los retrasos. *Dos veces.*'},
- {t:'count', pill:'CUENTA ATRÁS', from:99, to:2, suf:'', label:'días', note:'jueves 19 de noviembre · medianoche', cap:'Y ahora, después de todo eso, faltan solo *2 días*.'},
+ {t:'count', pill:'CUENTA ATRÁS', from:99, to:1, suf:'', label:'día', note:'jueves 19 de noviembre · medianoche', cap:'Y ahora, después de todo eso, falta solo *1 día*.'},
  {t:'title', pill:'MIAMI GAME', big:'¿TÚ LO *ESPERASTE*?', sub:'cuéntamelo en los comentarios', cap:'¿Cuántos años lo esperaste tú?'}]},
 { slug:'gta5-numeros', title:'GTA 5 en números: por qué GTA 6 da miedo', tag:'RÉCORDS', scenes:[
  {t:'title', pill:'LO QUE GTA 6 TIENE QUE SUPERAR', big:'GTA 5 en *números*', sub:'', cap:'Para entender GTA 6, primero mira lo que hizo GTA 5.'},
@@ -66,5 +66,5 @@ export const STORIES = [
  {t:'cards', pill:'EN QUÉ CONSOLAS', items:[['✓','PlayStation 5','ok'],['✓','Xbox Series X|S','ok'],['×','PC y PS4','x']], cap:'En *PS5* y *Xbox Series*. En PC y PS4, no.'},
  {t:'count', pill:'LO QUE NECESITAS LIBRE', from:0, to:212, suf:' GB', label:'gigas', note:'precarga abierta si reservaste', cap:'Necesitas *212 gigas*. Deja la precarga lista hoy.'},
  {t:'cards', pill:'EL TRUCO DE NUEVA ZELANDA', items:[['?','No confirmado','x'],['!','Riesgo en Xbox','x'],['×','En PS5 no sirve','x']], cap:'¿El truco de Nueva Zelanda? *No* está confirmado.'},
- {t:'count', pill:'CUENTA ATRÁS', from:60, to:2, label:'días', note:'miércoles a medianoche', cap:'Faltan *2 días*. Activa la notificación y nos vemos ahí.'}]}
+ {t:'count', pill:'CUENTA ATRÁS', from:60, to:1, label:'día', note:'esta noche a medianoche', cap:'Falta *1 día*. Activa la notificación y nos vemos ahí.'}]}
 ];
