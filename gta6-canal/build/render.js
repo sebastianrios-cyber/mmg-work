@@ -19,8 +19,10 @@ const T = {
   '12': [0, 4.4, 8.2, 12.61, 16.52, 21.88, 27.4, 30.88],
   '13': [0, 5.0, 11.04, 13.2, 15.36, 20.64, 25.88, 29.44],
   '14': [0, 5.2, 12.08, 16.92, 18.68, 21.92, 24.32, 27.84],
+  '15': [0, 7.12, 10.8, 15.6, 21.81, 26.56, 28.96, 32.56],
+  '16': [0, 5.6, 9.36, 13.2, 18.32, 23.52, 29.84, 35.76],
 };
-const TAG = { '01': 'LANZAMIENTO', '02': 'PRECARGA', '03': 'PRECIO', '04': 'PC', '05': 'CONSOLAS', '06': 'RENDIMIENTO', '07': 'ONLINE', '08': 'HISTORIA', '09': 'MAPA', '10': 'ACTIVIDADES', '11': 'PRECARGA', '12': 'TRUCO', '13': 'EDICIONES', '14': 'ÚLTIMO DÍA' };
+const TAG = { '01': 'LANZAMIENTO', '02': 'PRECARGA', '03': 'PRECIO', '04': 'PC', '05': 'CONSOLAS', '06': 'RENDIMIENTO', '07': 'ONLINE', '08': 'HISTORIA', '09': 'MAPA', '10': 'ACTIVIDADES', '11': 'PRECARGA', '12': 'TRUCO', '13': 'EDICIONES', '14': 'ÚLTIMO DÍA', '15': 'HUMOR', '16': 'HUMOR' };
 
 function build(id) {
   const v = JSON.parse(fs.readFileSync(path.join(ROOT, 'videos.json'), 'utf8')).find(x => x.id === id);

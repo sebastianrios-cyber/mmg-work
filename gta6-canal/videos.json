@@ -824,5 +824,121 @@
     "say": "Mañana ya no estará. Si lo ibas a comprar igual, hazlo hoy."
    }
   ]
+ },
+ {
+  "id": "15",
+  "slug": "espacio-para-gta6",
+  "accent": "#ff3d9a",
+  "accent2": "#21e6c1",
+  "title": "Hice espacio para GTA 6",
+  "segs": [
+   {
+    "say": "GTA 6 pesa 212 gigas. Mi consola tenía 30 libres. Así que hice lo más lógico.",
+    "k": "MI CONSOLA",
+    "big": "30 GB LIBRES",
+    "sub": "y GTA 6 pide 212",
+    "fx": "hook"
+   },
+   {
+    "say": "Primero borré los juegos que no jugaba. Gané 40 gigas.",
+    "k": "PASO 1",
+    "big": "+40 GB",
+    "sub": "adiós a lo que no jugaba",
+    "fx": "card"
+   },
+   {
+    "say": "Después borré los que sí jugaba. Lloré un poquito. Gané 90 más.",
+    "k": "PASO 2",
+    "big": "+90 GB",
+    "sub": "con lágrimas",
+    "fx": "card"
+   },
+   {
+    "say": "Me faltaban 52. Así que borré las partidas guardadas de mi hermano. Doce años de progreso.",
+    "k": "PASO 3",
+    "big": "+52 GB",
+    "sub": "perdón, hermano",
+    "fx": "warn"
+   },
+   {
+    "say": "Llegué a 212 exactos. Empezó la descarga. Por fin.",
+    "k": "PRECARGA",
+    "big": "212 EXACTOS",
+    "sub": "",
+    "fx": "stamp"
+   },
+   {
+    "say": "Esa noche, mi hermano prendió la consola.",
+    "k": "ESA NOCHE",
+    "big": "MI HERMANO",
+    "sub": "prendió la consola",
+    "fx": "card"
+   },
+   {
+    "say": "Ahora vivo en casa de mi abuela. Pero la precarga quedó lista.",
+    "k": "MORALEJA",
+    "big": "PRECARGA LISTA",
+    "sub": "sígueme: Miami Game",
+    "fx": "cta"
+   }
+  ]
+ },
+ {
+  "id": "16",
+  "slug": "juntar-80-dolares",
+  "accent": "#ffd23f",
+  "accent2": "#ff3d9a",
+  "title": "Junté 80 dólares para GTA 6",
+  "segs": [
+   {
+    "say": "GTA 6 cuesta 80 dólares. Yo tenía 3, y un cupón de pizza vencido.",
+    "k": "GTA 6 CUESTA",
+    "big": "$80",
+    "sub": "yo tenía $3",
+    "fx": "hook"
+   },
+   {
+    "say": "Vendí mi bici. 40 dólares. Ya iba por la mitad.",
+    "k": "VENDÍ LA BICI",
+    "big": "+$40",
+    "sub": "",
+    "fx": "card"
+   },
+   {
+    "say": "Vendí mi control viejo. 15 más. Me faltaban 22.",
+    "k": "VENDÍ EL CONTROL",
+    "big": "+$15",
+    "sub": "faltan $22",
+    "fx": "card"
+   },
+   {
+    "say": "Ofrecí lavar coches en mi cuadra. Lavé uno. Era de un vecino que no me había pedido nada.",
+    "k": "LAVÉ UN COCHE",
+    "big": "+$0",
+    "sub": "y una deuda",
+    "fx": "warn"
+   },
+   {
+    "say": "Desesperado, fui con mi abuela. Me dio los 22, y un sermón de dos horas.",
+    "k": "MI ABUELA",
+    "big": "+$22",
+    "sub": "y un sermón de 2 horas",
+    "fx": "stamp"
+   },
+   {
+    "say": "Llegué a los 80. Fui a la tienda. Y el señor me preguntó: ¿para PS5 o para Xbox?",
+    "k": "EN LA TIENDA",
+    "big": "¿PS5 O XBOX?",
+    "sub": "",
+    "fx": "card"
+   },
+   {
+    "say": "Yo tengo una PS4. Ahora GTA 6 vive en mi repisa. Lo miro todas las noches.",
+    "k": "YO TENGO",
+    "big": "UNA PS4",
+    "sub": "sígueme: Miami Game",
+    "fx": "cta"
+   }
+  ]
  }
 ]
