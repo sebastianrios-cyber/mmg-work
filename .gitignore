@@ -24,3 +24,8 @@ gta6-canal/anim3d/*/silent.mp4
 gta6-canal/anim3d/*/stills*/
 gta6-canal/anim3d/*/*.log
 gta6-canal/anim3d/*/node_modules
+gta6-canal/cine/*.mp4
+gta6-canal/cine/*.jpg
+gta6-canal/cine/st*/
+gta6-canal/cine/*.log
+gta6-canal/cine/node_modules
