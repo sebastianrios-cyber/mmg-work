@@ -29,10 +29,32 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#1b1430;font-fam
 #txt{font-weight:900;font-size:84px;line-height:1.05;text-transform:uppercase;-webkit-text-stroke:10px #07060d;paint-order:stroke fill;text-shadow:0 8px 20px rgba(0,0,0,.6)}
 #foot{position:absolute;left:0;right:0;bottom:22px;text-align:center;font-size:20px;opacity:.5;font-weight:600}
 #flash{position:absolute;inset:0;background:#fff;opacity:0}
+
+/* ---- cartoon ---- */
+.pup svg :is(path,circle,ellipse,rect):not([stroke]){stroke:#1a1022;stroke-width:7px;paint-order:stroke fill}
+.pup svg{filter:url(#ol)}
+#tv,#sofa .back,#sofa .seat,#sofa .c1,#sofa .c2,#rug,#lamp .sh{outline:none;box-shadow:none;border:7px solid #1a1022}
+#lamp .po{border:3px solid #1a1022}
+#wall{background:#6c4bb4!important}
+#wall:after{background:repeating-linear-gradient(90deg,rgba(255,255,255,.07) 0 50px,transparent 50px 100px)!important}
+#floor{background:#c98a52!important;border-top:7px solid #1a1022}
+#rug{background:#35c4b9!important}
+#sofa .back{background:#4a8fd6!important}#sofa .seat{background:#5aa3eb!important}
+#win{position:absolute;left:60px;top:560px;width:190px;height:240px;background:#8fd3ff;border:7px solid #1a1022;border-radius:12px}
+#win:before{content:"";position:absolute;left:50%;top:0;bottom:0;width:7px;margin-left:-3px;background:#1a1022}
+#win:after{content:"";position:absolute;top:50%;left:0;right:0;height:7px;margin-top:-3px;background:#1a1022}
+#cap{display:none}
+#bub{position:absolute;top:300px;width:620px;padding:30px 36px;background:#fff;border:8px solid #1a1022;border-radius:60px;color:#1a1022;text-align:center;transform-origin:50% 100%}
+#bub .t{font-weight:900;font-size:62px;line-height:1.05;text-transform:uppercase}
+#bub .n{position:absolute;top:-34px;left:40px;font-weight:900;font-size:30px;letter-spacing:.1em;padding:6px 18px;border-radius:12px;border:6px solid #1a1022;color:#1a1022}
+#bub:after{content:"";position:absolute;bottom:-58px;width:0;height:0;border-left:30px solid transparent;border-right:30px solid transparent;border-top:58px solid #1a1022}
+#bub:before{content:"";position:absolute;bottom:-40px;width:0;height:0;border-left:20px solid transparent;border-right:20px solid transparent;border-top:42px solid #fff;z-index:2}
+#bub.L:after{left:120px}#bub.L:before{left:130px}#bub.R:after{right:120px}#bub.R:before{right:130px}
+#pow{position:absolute;font-weight:900;font-size:120px;color:#ffd23f;-webkit-text-stroke:10px #1a1022;paint-order:stroke fill;opacity:0;transform-origin:50% 50%}
 </style></head><body>
 <div id="cam">
  <div id="wall"></div>
- <div id="tv"><div id="scr"><div id="sun"></div><div class="palm" style="left:60px"></div><div class="palm" style="left:110px;height:70px"></div><div class="palm" style="right:70px"></div></div></div>
+ <div id="win"></div><div id="tv"><div id="scr"><div id="sun"></div><div class="palm" style="left:60px"></div><div class="palm" style="left:110px;height:70px"></div><div class="palm" style="right:70px"></div></div></div>
  <div id="lamp"><div class="sh"></div><div class="po"></div></div>
  <div id="floor"></div><div id="rug"></div>
  <div id="sofa"><div class="back"></div><div class="seat"></div><div class="c1"></div><div class="c2"></div></div>
@@ -40,6 +62,7 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#1b1430;font-fam
 </div>
 <div id="top"><span id="tag">GTA 6</span><span id="tag2">HUMOR</span></div>
 <div id="cap"><div id="who"></div><div id="txt"></div></div>
+<svg width="0" height="0" style="position:absolute"><filter id="ol"><feMorphology in="SourceAlpha" operator="dilate" radius="5" result="d"/><feFlood flood-color="#1a1022"/><feComposite in2="d" operator="in" result="o"/><feMerge><feMergeNode in="o"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg><div id="bub"><div class="n"></div><div class="t"></div></div><div id="pow"></div>
 <div id="foot">Miami Game · Canal no oficial · Animación hecha por computadora, voces sintéticas</div>
 <div id="flash"></div>
 <script type="module">
@@ -66,8 +89,8 @@ function svg(o){ return `<svg viewBox="0 0 600 700" width="560" height="654">
   ${o.grey?`<circle cx="300" cy="78" r="62" fill="#dcdce4"/><path d="M122 230 C120 90 480 90 478 230 C440 150 160 150 122 230 Z" fill="#dcdce4"/>`:''}
   ${o.wrinkle?`<path d="M240 165 Q300 155 360 165" stroke="#d49a76" stroke-width="5" fill="none"/>`:''}
   <ellipse cx="210" cy="315" rx="30" ry="17" fill="#ff7f8f" opacity=".45"/><ellipse cx="390" cy="315" rx="30" ry="17" fill="#ff7f8f" opacity=".45"/>
-  <g transform="translate(232 250)"><ellipse rx="40" ry="46" fill="#fff"/><circle id="${o.id}pL" r="20" fill="#14121f"/></g>
-  <g transform="translate(368 250)"><ellipse rx="40" ry="46" fill="#fff"/><circle id="${o.id}pR" r="20" fill="#14121f"/></g>
+  <g transform="translate(232 250)"><ellipse rx="40" ry="46" fill="#fff"/><circle id="${o.id}pL" r="20" fill="#14121f"/><circle cx="8" cy="-10" r="7" fill="#fff" stroke="none"/></g>
+  <g transform="translate(368 250)"><ellipse rx="40" ry="46" fill="#fff"/><circle id="${o.id}pR" r="20" fill="#14121f"/><circle cx="8" cy="-10" r="7" fill="#fff" stroke="none"/></g>
   <rect id="${o.id}lL" x="190" y="200" width="84" height="0" fill="#f2c29b"/><rect id="${o.id}lR" x="326" y="200" width="84" height="0" fill="#f2c29b"/>
   ${o.glasses?`<circle cx="232" cy="250" r="56" fill="none" stroke="#222" stroke-width="9"/><circle cx="368" cy="250" r="56" fill="none" stroke="#222" stroke-width="9"/><path d="M288 250 L312 250" stroke="#222" stroke-width="9"/>`:''}
   <path id="${o.id}bL" d="M195 180 L268 176" stroke="${o.brow}" stroke-width="14" stroke-linecap="round"/>
@@ -84,7 +107,8 @@ function mouth(who,t){const i=lineAt(t); if(i<0||LINES[i].who!==who) return 0; c
 function pose(who,t,li,lt){
  const me=$(who), other=who==='N'?1:-1, spk=lineAt(t)>=0&&LINES[lineAt(t)].who===who;
  let dy=Math.sin(t*2.2+(who==='A'?1:0))*6, rot=Math.sin(t*1.3+(who==='A'?2:0))*1.5, sq=1, arms=0, head=0, brow=[0,0], look=other*12, lookY=0, mo=mouth(who,t);
- if(spk){ dy+=Math.sin(t*14)*4; rot+=Math.sin(t*5)*2.5; arms=Math.sin(lt*6)*-14; }
+ if(spk){ dy+=Math.sin(t*14)*6; rot+=Math.sin(t*5)*3.5; arms=Math.sin(lt*6)*-20; sq=1+mouth(who,t)*0.05; }
+ if(lt<0.25&&spk){ sq*=1+0.08*Math.sin(lt/0.25*Math.PI); }
  const r=eOut(clamp(lt/0.3));
  if(who==='N'&&li===0){ brow=[14,-14]; arms=-40*r; }
  if(who==='A'&&li===1){ brow=[-18,18]; sq=1+0.05*Math.sin(clamp(lt/0.3)*Math.PI); mo=Math.max(mo,0.35); }
@@ -116,6 +140,11 @@ window.renderAt=function(t){
  else { s=1+0.04*clamp(lt/4); }
  $('cam').style.transformOrigin=`${ox}px ${oy}px`; $('cam').style.transform=`scale(${s}) translate(${Math.sin(t*0.8)*4}px,${Math.cos(t*0.6)*3}px)`;
  $('flash').style.opacity=li>0?Math.max(0,1-lt/0.1)*0.35:0;
+ // bocadillos
+ const ci=CAPS.filter(c=>t>=c[0]).pop(); const sh=ci&&(ci.length<4||t<ci[3]); const B=$('bub'); B.style.opacity=sh?1:0;
+ if(sh){ const w=ci[2]; B.className=w==='N'?'L':'R'; B.style.left=w==='N'?'60px':'400px'; B.querySelector('.n').textContent=w==='N'?'NIETO':'ABUELA'; B.querySelector('.n').style.background=w==='N'?'#a98bff':'#ffb3c6'; B.querySelector('.t').textContent=ci[1]; const k=clamp((t-ci[0])/0.14); B.style.transform=`scale(${0.85+0.15*eOut(k)}) rotate(${w==='N'?-1.5:1.5}deg)`; }
+ const POW={4:['¡¿13 AÑOS?!',700,560],1:['¿¡$80!?',620,540],8:['¡2027!',300,600]}; const pw=POW[li]; const P=$('pow');
+ if(pw&&lt<1.4){ P.textContent=pw[0]; P.style.left=pw[1]+'px'; P.style.top=pw[2]+'px'; P.style.opacity=clamp((1.4-lt)/0.3); P.style.transform=`translate(-50%,-50%) scale(${eOut(clamp(lt/0.18))*1.0+0.1}) rotate(-8deg)`; } else P.style.opacity=0;
  // subtítulos
  const c=CAPS.filter(c=>t>=c[0]).pop(); const show=c&&(c.length<4||t<c[3]);
  $('cap').style.opacity=show?1:0;
