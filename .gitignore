@@ -5,3 +5,12 @@ gta6-canal/build/*.log
 gta6-canal/build/v*.json
 miami-game-proyecto.zip
 miami-game.bundle
+.claude/kit/node_modules/
+.claude/kit/.venv/
+.claude/kit/models/
+.claude/kit/vendor/
+gta6-canal/anim/*/p*.mp4
+gta6-canal/anim/*/silent.mp4
+gta6-canal/anim/*/stills*/
+gta6-canal/anim/*/*.log
+gta6-canal/anim/*/node_modules
