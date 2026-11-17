@@ -1,0 +1,100 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#07060d;font-family:'Inter Display','Inter',sans-serif;color:#fff}
+.bg{position:absolute;inset:-6%;background-size:cover;background-position:center;opacity:0}
+#shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,6,13,.55),rgba(7,6,13,.15) 30%,rgba(7,6,13,.25) 55%,rgba(7,6,13,.9))}
+#flash{position:absolute;inset:0;background:#fff;opacity:0}
+#scan{position:absolute;inset:0;background:repeating-linear-gradient(180deg,rgba(255,255,255,.035) 0 2px,transparent 2px 6px)}
+#top{position:absolute;top:80px;left:0;right:0;text-align:center}
+#tag{display:inline-block;font-weight:900;font-size:40px;letter-spacing:.14em;padding:12px 30px;border-radius:999px;background:#ff3d9a;color:#07060d}
+#brand{margin-top:16px;font-weight:800;font-size:30px;letter-spacing:.3em;opacity:.85}
+#mid{position:absolute;top:290px;left:0;right:0;text-align:center}
+#lab{font-weight:900;font-size:86px;letter-spacing:.06em;text-shadow:0 6px 0 rgba(7,6,13,.6)}
+#num{font-weight:900;font-size:520px;line-height:.86;letter-spacing:-.04em;color:#fff;
+ text-shadow:0 0 60px rgba(255,61,154,.9),0 0 140px rgba(33,230,193,.5),0 14px 0 rgba(7,6,13,.6);-webkit-text-stroke:6px #07060d;paint-order:stroke fill}
+#unit{font-weight:900;font-size:76px;letter-spacing:.02em;margin-top:6px;text-shadow:0 6px 0 rgba(7,6,13,.6)}
+#card{position:absolute;left:90px;right:90px;top:1060px;text-align:center;opacity:0}
+#card div{display:inline-block;font-weight:800;font-size:46px;padding:14px 30px;border-radius:18px;background:rgba(7,6,13,.75);border:4px solid #21e6c1;margin:8px}
+#cta{position:absolute;left:0;right:0;top:1080px;text-align:center;opacity:0}
+#cta b{display:inline-block;font-weight:900;font-size:70px;padding:24px 56px;border-radius:999px;background:#ffd23f;color:#07060d}
+#pup{position:absolute;left:50%;bottom:-60px;width:640px;height:750px;margin-left:-320px;filter:drop-shadow(0 30px 40px rgba(0,0,0,.6))}
+#foot{position:absolute;left:0;right:0;bottom:24px;text-align:center;font-size:20px;opacity:.5;font-weight:600}
+</style></head><body>
+<div id="bgs"></div><div id="shade"></div><div id="scan"></div>
+<div id="top"><div id="tag">GTA 6</div><div id="brand">MIAMI GAME</div></div>
+<div id="mid"><div id="lab"></div><div id="num"></div><div id="unit"></div></div>
+<div id="card"><div id="c1"></div><div id="c2"></div></div>
+<div id="cta"><b>SÍGUEME</b></div>
+<svg id="pup" viewBox="0 0 600 700">
+ <g id="pbody">
+  <path d="M95 700 C95 520 170 455 300 455 C430 455 505 520 505 700 Z" fill="#23243a"/>
+  <path d="M150 700 C150 560 210 500 300 500 C390 500 450 560 450 700" fill="none" stroke="var(--a)" stroke-width="10" opacity=".9"/>
+  <path d="M255 470 L300 540 L345 470" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".85"/>
+  <g id="parms">
+   <path d="M130 600 C150 540 200 560 220 600" stroke="#23243a" stroke-width="58" stroke-linecap="round" fill="none"/>
+   <path d="M470 600 C450 540 400 560 380 600" stroke="#23243a" stroke-width="58" stroke-linecap="round" fill="none"/>
+   <rect x="200" y="575" width="200" height="84" rx="42" fill="#111" stroke="var(--a2)" stroke-width="6"/>
+   <circle cx="250" cy="617" r="13" fill="#444"/><circle cx="350" cy="606" r="9" fill="var(--a)"/><circle cx="372" cy="626" r="9" fill="var(--a2)"/>
+   <circle cx="215" cy="610" r="30" fill="#f2c29b"/><circle cx="385" cy="610" r="30" fill="#f2c29b"/>
+  </g>
+ </g>
+ <g id="phead">
+  <rect x="268" y="400" width="64" height="70" rx="20" fill="#e3ad83"/>
+  <circle cx="122" cy="265" r="34" fill="#e3ad83"/><circle cx="478" cy="265" r="34" fill="#e3ad83"/>
+  <circle cx="300" cy="255" r="178" fill="#f2c29b"/>
+  <path d="M128 190 C140 70 460 70 472 190 C470 170 380 130 300 130 C220 130 130 170 128 190 Z" fill="#3a2418"/>
+  <path d="M120 175 C130 40 470 40 480 175 L120 175 Z" fill="var(--a)"/>
+  <path d="M120 175 L480 175" stroke="#07060d" stroke-width="8"/>
+  <path d="M440 168 C520 160 560 175 565 190 L470 190 Z" fill="var(--a)"/>
+  <circle cx="300" cy="62" r="14" fill="var(--a2)"/>
+  <ellipse cx="210" cy="315" rx="30" ry="17" fill="#ff7f8f" opacity=".45"/><ellipse cx="390" cy="315" rx="30" ry="17" fill="#ff7f8f" opacity=".45"/>
+  <g id="eyes">
+   <g id="eyeL" transform="translate(232 250)"><ellipse rx="40" ry="46" fill="#fff"/><circle id="pupL" r="20" fill="#14121f"/><circle cx="7" cy="-8" r="6" fill="#fff"/></g>
+   <g id="eyeR" transform="translate(368 250)"><ellipse rx="40" ry="46" fill="#fff"/><circle id="pupR" r="20" fill="#14121f"/><circle cx="7" cy="-8" r="6" fill="#fff"/></g>
+  </g>
+  <rect id="lidL" x="190" y="200" width="84" height="0" fill="#f2c29b"/>
+  <rect id="lidR" x="326" y="200" width="84" height="0" fill="#f2c29b"/>
+  <path id="browL" d="M195 190 L268 186" stroke="#3a2418" stroke-width="14" stroke-linecap="round"/>
+  <path id="browR" d="M332 186 L405 190" stroke="#3a2418" stroke-width="14" stroke-linecap="round"/>
+  <path d="M300 268 C290 300 296 312 310 310" fill="none" stroke="#c98e66" stroke-width="7" stroke-linecap="round"/>
+  <g transform="translate(300 352)"><ellipse id="mouth" rx="52" ry="6" fill="#5a1220"/><ellipse id="tongue" cx="0" cy="10" rx="26" ry="0" fill="#ff6b7a"/></g>
+ </g>
+</svg>
+<div id="foot">Canal no oficial · Imágenes ilustrativas generadas con IA</div>
+<div id="flash"></div>
+<script>
+const C=window.__CFG__; const A='#ff3d9a',A2='#21e6c1';
+const $=s=>document.querySelector(s); const $p=id=>document.getElementById(id);
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)); const eOut=x=>1-Math.pow(1-clamp(x),3);
+const eBack=x=>{x=clamp(x);const c=2.2;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const BEAT=60/110, OFF=0.02, CUT=2*BEAT;
+C.imgs.forEach((u,i)=>{const d=document.createElement('div');d.className='bg';d.style.backgroundImage=`url(${u})`;$('#bgs').appendChild(d)});
+const BG=[...document.querySelectorAll('.bg')];
+$('#lab').textContent=C.lab; $('#num').textContent=C.num; if(C.num.length>1) $('#num').style.fontSize='340px'; $('#unit').textContent=C.unit; $p('c1').textContent=C.c1; $p('c2').textContent=C.c2;
+const PUP=$p('pup'); PUP.style.setProperty('--a',A); PUP.style.setProperty('--a2',A2);
+window.renderAt=function(t){
+ const k=Math.max(0,Math.floor((t-OFF)/CUT)), lt=t-OFF-k*CUT;
+ BG.forEach((b,i)=>{const on=i===k%BG.length; b.style.opacity=on?1:0; if(on){const p=lt/CUT; b.style.transform=`scale(${1.08+0.08*p+(k%2?0.04:0)}) translate(${(k%2?-1:1)*(p-.5)*2}%,${(p-.5)*-1.5}%) rotate(${(k%2?-1:1)*0.6}deg)`;}});
+ $('#flash').style.opacity=t>0.2?Math.max(0,1-lt/0.12)*0.5:0;
+ const bt=(t-OFF)/BEAT, bf=bt-Math.floor(bt), pulse=Math.exp(-bf*6);
+ // intro
+ const intro=eBack(clamp((t-0.15)/0.55));
+ $('#lab').style.transform=`translateY(${(1-eOut(clamp(t/0.4)))*-80}px)`; $('#lab').style.opacity=clamp(t/0.3);
+ $('#num').style.transform=`scale(${(0.2+0.8*intro)*(1+pulse*0.07)}) rotate(${Math.sin(t*2)*2}deg)`;
+ $('#unit').style.opacity=clamp((t-0.5)/0.3); $('#unit').style.transform=`translateY(${(1-eOut(clamp((t-0.5)/0.3)))*60}px)`;
+ // card from 5.5 to 11.5, cta after D-3
+ const D=C.dur, ci=clamp((t-5.4)/0.35)*clamp((D-3.2-t)/0.3);
+ $('#card').style.opacity=ci; $('#card').style.transform=`scale(${0.85+0.15*eBack(clamp((t-5.4)/0.35))})`;
+ const ca=clamp((t-(D-3))/0.3); $('#cta').style.opacity=ca; $('#cta').style.transform=`scale(${eBack(ca)*(1+pulse*0.05)})`;
+ // puppet: dance on the beat, cheering
+ const cheer=t>D-3.2||C.hype;
+ PUP.style.transform=`translateY(${-Math.abs(Math.sin(bt*Math.PI))*26}px) rotate(${Math.sin(bt*Math.PI)*4}deg)`;
+ $p('phead').setAttribute('transform',`rotate(${Math.sin(bt*Math.PI)*-5} 300 420)`);
+ $p('parms').setAttribute('transform',`translate(0 ${(cheer?-30:0)+Math.sin(bt*Math.PI*2)*8})`);
+ const open=cheer?0.8:0.35+pulse*0.4;
+ $p('mouth').setAttribute('ry',(6+open*40).toFixed(1)); $p('mouth').setAttribute('rx','58'); $p('tongue').setAttribute('ry',(open*14).toFixed(1));
+ $p('browL').setAttribute('transform','rotate(-10 232 188) translate(0 -10)'); $p('browR').setAttribute('transform','rotate(10 368 188) translate(0 -10)');
+ const bl=(t%3.1)<0.12?1:0; $p('lidL').setAttribute('height',bl*100); $p('lidR').setAttribute('height',bl*100);
+};
+window.__READY__=true;
+</script></body></html>
