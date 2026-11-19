@@ -22,8 +22,10 @@ const T = {
   '15': [0, 7.12, 10.8, 15.6, 21.81, 26.56, 28.96, 32.56],
   '16': [0, 5.6, 9.36, 13.2, 18.32, 23.52, 29.84, 35.76],
   '17': [0, 4.32, 7.44, 11.28, 13.52, 16.56, 21.84, 25.68],
+  '18': [0.0, 5.08, 9.44, 13.63, 16.53, 19.05, 23.3, 26.25],
+  '19': [0.0, 4.13, 7.52, 10.01, 13.02, 15.84, 19.07, 21.82],
 };
-const TAG = { '01': 'LANZAMIENTO', '02': 'PRECARGA', '03': 'PRECIO', '04': 'PC', '05': 'CONSOLAS', '06': 'RENDIMIENTO', '07': 'ONLINE', '08': 'HISTORIA', '09': 'MAPA', '10': 'ACTIVIDADES', '11': 'PRECARGA', '12': 'TRUCO', '13': 'EDICIONES', '14': 'ÚLTIMO DÍA', '15': 'HUMOR', '16': 'HUMOR', '17': 'HUMOR' };
+const TAG = { '01': 'LANZAMIENTO', '02': 'PRECARGA', '03': 'PRECIO', '04': 'PC', '05': 'CONSOLAS', '06': 'RENDIMIENTO', '07': 'ONLINE', '08': 'HISTORIA', '09': 'MAPA', '10': 'ACTIVIDADES', '11': 'PRECARGA', '12': 'TRUCO', '13': 'EDICIONES', '14': 'ÚLTIMO DÍA', '15': 'HUMOR', '16': 'HUMOR', '17': 'HUMOR', '18': 'HUMOR', '19': 'HUMOR' };
 
 function build(id) {
   const v = JSON.parse(fs.readFileSync(path.join(ROOT, 'videos.json'), 'utf8')).find(x => x.id === id);
